@@ -14,33 +14,37 @@ def xml2list(file_name):
     f1 = open(file_name)
     fp3 = open("Duplicate_strings.strings", "w")
     f1_list = []
+    keys = []
     tmp = []
     duplicatestring = 0
     
     for line in f1:
         lst = line.split('=')
-        if len(lst) == 0:
+        if len(lst) <= 1:
             continue
-        if len(lst) == 1:
+        elif len(lst) != 2:
+            print '%s Format error, please import manually !!!' % (lst[0])
             continue
+        
         key = lst[0].strip('" \n')
+        val = lst[1].strip('"; \n')
+        
         if len(key) == 0:
             continue
         if key.startswith('//'):
             continue
-    
-        if len(lst) == 2:
-            val = lst[1].strip('"; \n')
-            tmp = [key, val]
-            if tmp not in f1_list:
-                f1_list.append(tmp)
-            else:
-                duplicatestring = 1
-                s = '\"%s\" = \"%s\";\n' % (key, val)
-                fp3.write(s.decode("utf-8"))
-                print 'Duplicate in strings k=%s, v=%s' % (key, val)
+        
+        if key not in keys:
+            keys.append(key)
         else:
-            print '%s Format error, please import manually !!!' % (key)
+            duplicatestring = 1
+            s = '\"%s\" = \"%s\";\n' % (key, val)
+            fp3.write(s.decode("utf-8"))
+            print 'Duplicate in strings key=%s, value=%s' % (key, val)
+
+        tmp = [key, val]
+        if tmp not in f1_list:
+            f1_list.append(tmp)
 
     if duplicatestring == 1:
         print 'error !!!'
@@ -72,6 +76,7 @@ def excel2list(excel_file, sheetname, language):
 
     xllist = []
     tmp = []
+    keys = []
     fp1 = open("Empty_excel.strings", "w")
     fp2 = open("Duplicate_excel.strings", "w")
     emptystring = 0
@@ -91,13 +96,17 @@ def excel2list(excel_file, sheetname, language):
             continue
         if len(k) == 0 and len(v) == 0:
             continue
-        if tmp not in xllist:
-            xllist.append(tmp)
+        
+        if k not in keys:
+            keys.append(k)
         else:
             duplicatestring = 1
             d = '\"%s\" = \"%s\";\n' % (k, v)
             fp2.write(d.decode("utf-8"))
             print 'Duplicate in excel k=%s, v=%s' % (k, v)
+
+        if tmp not in xllist:
+            xllist.append(tmp)
     
 #    if emptystring == 1 or duplicatestring == 1:
 #        print 'error happend'
