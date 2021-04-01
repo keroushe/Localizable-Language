@@ -82,7 +82,7 @@ def excel2list(excel_file, sheetname, language):
     emptystring = 0
     duplicatestring = 0
 
-    for i in range(2, nrows):
+    for i in range(1, nrows):
         k = str(sh.cell_value(i, 0)).strip()
         v = str(sh.cell_value(i, col)).strip()
         tmp = [k, v]
