@@ -21,6 +21,8 @@ def xml2list(file_name):
         lst = line.split('=')
         if len(lst) == 0:
             continue
+        if len(lst) == 1:
+            continue
         key = lst[0].strip('" \n')
         if len(key) == 0:
             continue
@@ -37,30 +39,35 @@ def xml2list(file_name):
                 s = '\"%s\" = \"%s\";\n' % (key, val)
                 fp3.write(s.decode("utf-8"))
                 print 'Duplicate in strings k=%s, v=%s' % (key, val)
-    
+        else:
+            print '%s Format error, please import manually !!!' % (key)
+
     if duplicatestring == 1:
         print 'error !!!'
         sys.exit()
 
     return f1_list
 
-def excel2list(file_name):
+def excel2list(excel_file, sheetname, language):
     """get arr from excel, then check is Duplicate in excel
     """
-    bk = xlrd.open_workbook(file_name)
-    shxrange = range(bk.nsheets)
-    sh = bk.sheet_by_index(0)		#open first sheet
+    bk = xlrd.open_workbook(excel_file)
+    sh = bk.sheet_by_name(sheetname)
+    if sh == None:
+        print 'error !!!'
+        sys.exit()
+
     nrows = sh.nrows
     ncols = sh.ncols
     isfound = 0
     for col in range(0, ncols):
-        if sh.cell_value(0, col).strip().lower() == sys.argv[2].lower():
+        if sh.cell_value(0, col).strip().lower() == language.lower():
             isfound = 1
             break
     if isfound == 1:
         print 'Found lang \"%s\" in %d col' % (sh.cell_value(0, col), col)
     else:
-        print 'Not found lang \"%s\"' % (sys.argv[2])
+        print 'Not found lang \"%s\"' % (language)
         sys.exit()
 
     xllist = []
@@ -165,13 +172,13 @@ def difference(excellist, xmllist):
         f.write("\n\n**********compare end*********\n\n")
 
 def main():
-    if len(sys.argv) != 4:
-        print 'usage: %s excel_file language Localizable.strings\nconflict in dict_conflict.txt' % (sys.argv[0])
+    if len(sys.argv) != 5:
+        print 'usage: %s excel_file sheetname language Localizable.strings\n' % (sys.argv[0])
         sys.exit()
-    excellist = excel2list(sys.argv[1])
-    xmllist = xml2list(sys.argv[3])
+    excellist = excel2list(sys.argv[1], sys.argv[2], sys.argv[3])
+    xmllist = xml2list(sys.argv[4])
     difference(excellist, xmllist)
-    import2xml(excellist, xmllist, sys.argv[3])
+    import2xml(excellist, xmllist, sys.argv[4])
     print 'success import excel file to strings'
 
 if __name__ == '__main__':

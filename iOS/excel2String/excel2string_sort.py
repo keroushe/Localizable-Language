@@ -10,8 +10,8 @@ import collections
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-def get_kv(file_name):
-    f1 = open(file_name)
+def get_kv(localizable_file_name):
+    f1 = open(localizable_file_name)
     f1_dict = {}
     fp3 = open("Duplicate_strings.strings", "w")
     duplicatestring = 0
@@ -44,23 +44,26 @@ def get_kv(file_name):
 
     return f1_dict
 
-def xl2dict():
+def xl2dict(excel_file, sheetname, language):
     """get dict from excel, then check is Duplicate in excel
     """
-    bk = xlrd.open_workbook(sys.argv[1])
-    shxrange = range(bk.nsheets)
-    sh = bk.sheet_by_index(0)		#open first sheet
+    bk = xlrd.open_workbook(excel_file)
+    sh = bk.sheet_by_name(sheetname)
+    if sh == None:
+        print 'error !!!'
+        sys.exit()
+    
     nrows = sh.nrows
     ncols = sh.ncols
     isfound = 0
     for col in range(0, ncols):
-        if sh.cell_value(0, col).strip().lower() == sys.argv[2].lower():
+        if sh.cell_value(0, col).strip().lower() == language.lower():
             isfound = 1
             break
     if isfound == 1:
         print 'Found lang \"%s\" in %d col' % (sh.cell_value(0, col), col)
     else:
-        print 'Not found lang \"%s\"' % (sys.argv[2])
+        print 'Not found lang \"%s\"' % (language)
         sys.exit()
 
     xldict = {}
@@ -105,7 +108,7 @@ def xl2dict():
 
     return xldict
 
-def sub(xldict, xmldict):
+def sub(xldict, xmldict, localizable_file_name):
     for k, v in xldict.iteritems():
         if k in xmldict:
             r = v.replace('\\','')
@@ -114,7 +117,7 @@ def sub(xldict, xmldict):
             r = v.replace('\\','')
             xmldict[k] = r.replace('"','\\"')
     
-    f = open(sys.argv[3], 'w') 
+    f = open(localizable_file_name, 'w')
     d = collections.OrderedDict(sorted(xmldict.items(), key = lambda t: t[0].lower()))
     for k, v in d.iteritems():
         s = "\"%s\" = \"%s\";\n" % (k, v)
@@ -152,12 +155,12 @@ def difference(xld, xmld):
         f.write("\n\n**********compare end*********\n\n")
 
 def main():
-    if len(sys.argv) != 4:
-        print 'usage: %s excel_file language Localizable.strings\nconflict in dict_conflict.txt' % (sys.argv[0])
+    if len(sys.argv) != 5:
+        print 'usage: %s excel_file sheetname language Localizable.strings\n' % (sys.argv[0])
         sys.exit()
-    xld = xl2dict()
-    xmld = get_kv(sys.argv[3])
-    difference(xld, xmld)
+    xld = xl2dict(sys.argv[1], sys.argv[2], sys.argv[3])
+    xmld = get_kv(sys.argv[4])
+    difference(xld, xmld, sys.argv[4])
     sub(xld, xmld)
     print 'success import excel file to strings'
 

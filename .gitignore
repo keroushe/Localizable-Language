@@ -35,3 +35,8 @@ proguard/
 
 # Log Files
 *.log
+
+defference.strings
+Duplicate_excel.strings
+Duplicate_strings.strings
+Empty_excel.strings
