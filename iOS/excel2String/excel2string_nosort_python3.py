@@ -36,10 +36,10 @@ def xml2list(file_name):
                 duplicatestring = 1
                 s = '\"%s\" = \"%s\";\n' % (key, val)
                 fp3.write(s.decode("utf-8"))
-                print 'Duplicate in strings k=%s, v=%s' % (key, val)
+                print ('Duplicate in strings k=%s, v=%s' % (key, val))
     
     if duplicatestring == 1:
-        print 'error !!!'
+        print ('error !!!')
         sys.exit()
 
     return f1_list
@@ -58,9 +58,9 @@ def excel2list(file_name):
             isfound = 1
             break
     if isfound == 1:
-        print 'Found lang \"%s\" in %d col' % (sh.cell_value(0, col), col)
+        print ('Found lang \"%s\" in %d col' % (sh.cell_value(0, col), col))
     else:
-        print 'Not found lang \"%s\"' % (sys.argv[2])
+        print ('Not found lang \"%s\"' % (sys.argv[2]))
         sys.exit()
 
     xllist = []
@@ -79,7 +79,7 @@ def excel2list(file_name):
             emptystring = 1
             e = '\"%s\" = \"%s\";\n' % (k, v)
             fp1.write(e.decode("utf-8"))
-            print 'Empty in excel \"%s\" = \"%s\"' % (k, v)
+            print ('Empty in excel \"%s\" = \"%s\"' % (k, v))
         if len(k) == 0:
             continue
         if len(k) == 0 and len(v) == 0:
@@ -90,14 +90,14 @@ def excel2list(file_name):
             duplicatestring = 1
             d = '\"%s\" = \"%s\";\n' % (k, v)
             fp2.write(d.decode("utf-8"))
-            print 'Duplicate in excel k=%s, v=%s' % (k, v)
+            print ('Duplicate in excel k=%s, v=%s' % (k, v))
     
 #    if emptystring == 1 or duplicatestring == 1:
-#        print 'error happend'
+#        print ('error happend')
 #        sys.exit()
 
     if duplicatestring == 1:
-        print 'error !!!'
+        print ('error !!!')
         sys.exit()
 
     return xllist
@@ -166,13 +166,13 @@ def difference(excellist, xmllist):
 
 def main():
     if len(sys.argv) != 4:
-        print 'usage: %s excel_file language Localizable.strings\nconflict in dict_conflict.txt' % (sys.argv[0])
+        print ('usage: %s excel_file language Localizable.strings\nconflict in dict_conflict.txt' % (sys.argv[0]))
         sys.exit()
     excellist = excel2list(sys.argv[1])
     xmllist = xml2list(sys.argv[3])
     difference(excellist, xmllist)
     import2xml(excellist, xmllist, sys.argv[3])
-    print 'success import excel file to strings'
+    print ('success import excel file to strings')
 
 if __name__ == '__main__':
     main()

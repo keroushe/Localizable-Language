@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  Video
+
+  Created by saina on 2020/11/14.
+  Copyright © 2020 cnest. All rights reserved.
+*/
+NSAppleMusicUsageDescription = "You can use your media files for editing after permission";
+NSCameraUsageDescription = "You can use the camera to take photos when allowed";
+NSLocationWhenInUseUsageDescription = "Use your location for data statistics when allowed";
+NSLocationAlwaysUsageDescription = "Use your location for data statistics when allowed";
+NSMicrophoneUsageDescription = "You can use your microphone for voice playback and recording after permission";
+NSPhotoLibraryAddUsageDescription = "You can access your album to add pictures after permission";
+NSPhotoLibraryUsageDescription = "You can view, edit, and save photos or videos when allowed";
