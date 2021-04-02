@@ -1037,3 +1037,6 @@
 "publish_tag_exist"="Etikette existiert bereits";
 "publish_tag_input"="Bitte geben Sie ein Etikett ein";
 "publish_more"="Mehr";
+"NewIntegral_TaskPerfectUserInfo_Title"="Persönliche Informationen verbessern";
+"NewIntegral_TaskPerfectUserInfo_SubTitle"="Ändern Sie den Avatar, erhalten Sie ihn sofort nach erfolgreichem Ausfüllen von Geschlecht und Geburtstag, bereits erhalten";
+"NewIntegral_Start_Publish_Now"="Nehmen Sie jetzt teil";

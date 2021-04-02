@@ -1036,3 +1036,6 @@
 "publish_tag_exist"="La etiqueta ya existe";
 "publish_tag_input"="Ingrese una etiqueta";
 "publish_more"="Más";
+"NewIntegral_TaskPerfectUserInfo_Title"="Mejorar la información personal";
+"NewIntegral_TaskPerfectUserInfo_SubTitle"="Cambie el avatar; consígalo inmediatamente después de completar con éxito el género y la fecha de nacimiento, ya tiene";
+"NewIntegral_Start_Publish_Now"="Participa ahora";

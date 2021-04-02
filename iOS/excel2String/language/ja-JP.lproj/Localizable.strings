@@ -1044,9 +1044,8 @@
 "NewShopBuy_Result_PopGetAK_Count"="%dAKコイン";
 "NewShopBuy_Result_PopGetAK_Msg"="おめでとうございます";
 "NewShopBuy_Info_Pay_Failed"="支払いに失敗しました";
-"NewShopBuy_Info_AK_Unit"="";
-"NewShopBuy_Info_Tips1"="「注文する」をクリックすると、読んで確認したことを確認します。
-";
+"NewShopBuy_Info_AK_Unit"="AKコイン";
+"NewShopBuy_Info_Tips1"="「注文する」をクリックすると、読んで確認したことを確認します。";
 "NewShopBuy_Info_Tips2"="すべての契約とポリシー";
 "NewShopBuy_Info_DetailMsg"="商品を受け取る住所が正しいことを確認する必要があります。 住所が間違っていると、商品を時間内に受け取れない、または受け取れないなどになる可能性があります。";
 "NewIntegral_TaskPerfectHead_Title"="アバターを変更する";
@@ -1080,3 +1079,6 @@
 "publish_tag_exist"="ラベルはすでに存在します";
 "publish_tag_input"="ラベルを入力してください";
 "publish_more"="もっと";
+"NewIntegral_TaskPerfectUserInfo_Title"="個人情報を改善する";
+"NewIntegral_TaskPerfectUserInfo_SubTitle"="アバターを変更します。性別と誕生日を正しく入力したらすぐに取得します。";
+"NewIntegral_Start_Publish_Now"="今すぐ参加する";

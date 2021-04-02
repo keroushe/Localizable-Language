@@ -1042,3 +1042,6 @@ failing to receive them.";
 "publish_tag_exist"="Tag already exists";
 "publish_tag_input"="Please enter a tag";
 "publish_more"="More";
+"NewIntegral_TaskPerfectUserInfo_Title"="Improve personal information";
+"NewIntegral_TaskPerfectUserInfo_SubTitle"="Change the avatar; get it immediately after filling in gender and birthday successfully, already got";
+"NewIntegral_Start_Publish_Now"="Participate now";

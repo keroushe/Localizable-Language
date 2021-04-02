@@ -1004,7 +1004,7 @@
 "NewShopBuy_Info_Pay_Failed"="Mancato pagamento";
 "NewShopBuy_Info_AK_Unit"="AK moneta";
 "NewShopBuy_Info_Tips1"="Cliccando su 'Effettua ordine', confermo di aver letto e riconosciuto tutti i termini e le politiche.";
-"NewShopBuy_Info_Tips2"="";
+"NewShopBuy_Info_Tips2"="Tutti i termini e le politiche.";
 "NewShopBuy_Info_DetailMsg"="È vostra responsabilità assicurarvi che l'indirizzo per la ricezione della merce sia corretto.Un indirizzo errato può risultare in: mancata ricezione della merce in tempo o mancata ricezione della stessa.";
 "NewIntegral_TaskPerfectHead_Title"="Cambia avatar";
 "NewIntegral_TaskPerfectHead_SubTitle"="Ottenere immediatamente dopo aver cambiato con successo l'avatar, ricevuto";
@@ -1025,11 +1025,11 @@
 "NewIntegral_Shop_Stock"="In stock:";
 "specifications_tips"="Si prega di selezionare il tipo";
 "coins_multiple_reward_tips"="La piattaforma determinerà l'attuale moltiplicatore della montete AK  in base al contributo e allo stato di attività dell'utente; fino a 3 volte il valore della ricompensa";
-"NewIntegral_Gift_Msg_Get"="";
+"NewIntegral_Gift_Msg_Get"="Ottenuto dopo l'accesso tra%d giorni";
 "NewIntegral_Gift_Msg_Expire"="Scadenza";
 "NewIntegral_Topic_NumMsg"="%d post";
 "publish_tag_add"="Aggiungi Tag";
-"publish_topic_search"="";
+"publish_topic_search"="Immettere un nome per cercare gli argomenti";
 "publish_topic_hotRank"="CALDO";
 "publish_heat_count"="%d discussioni";
 "publish_tag"="Etichetta";
@@ -1037,3 +1037,6 @@
 "publish_tag_exist"="Il tag esiste già";
 "publish_tag_input"="Inserisci un tag";
 "publish_more"="Di più";
+"NewIntegral_TaskPerfectUserInfo_Title"="Migliora le informazioni personali";
+"NewIntegral_TaskPerfectUserInfo_SubTitle"="Cambia l'avatar; ottenerlo immediatamente dopo aver inserito correttamente sesso e compleanno, già ottenuto";
+"NewIntegral_Start_Publish_Now"="Partecipa ora";

@@ -1042,3 +1042,6 @@
 "publish_tag_exist"="標籤已存在";
 "publish_tag_input"="請輸入標籤";
 "publish_more"="更多";
+"NewIntegral_TaskPerfectUserInfo_Title"="完善個人信息";
+"NewIntegral_TaskPerfectUserInfo_SubTitle"="更換頭像; 性別、生日填寫成功後立即獲得，已得到";
+"NewIntegral_Start_Publish_Now"="立即參與";

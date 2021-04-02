@@ -1002,7 +1002,7 @@
 "NewShopBuy_Result_PopGetAK_Count"="%d Pièces AK";
 "NewShopBuy_Result_PopGetAK_Msg"="Félicitations pour récompenser";
 "NewShopBuy_Info_Pay_Failed"="Paiement échoué";
-"NewShopBuy_Info_AK_Unit"="";
+"NewShopBuy_Info_AK_Unit"="AK Pièce";
 "NewShopBuy_Info_Tips1"="En cliquant sur «Passer la commande», je confirme que j'ai lu et reconnu";
 "NewShopBuy_Info_Tips2"="tous les termes et politiques.";
 "NewShopBuy_Info_DetailMsg"="Il est de votre responsabilité de vous assurer que l'adresse de réception des marchandises est correcte. Une adresse erronée peut entraîner: la non-réception des marchandises à temps ou la non-réception de celles-ci.";
@@ -1037,3 +1037,6 @@
 "publish_tag_exist"="L'étiquette existe déjà";
 "publish_tag_input"="Veuillez saisir une étiquette";
 "publish_more"="Plus";
+"NewIntegral_TaskPerfectUserInfo_Title"="Améliorer les informations personnelles";
+"NewIntegral_TaskPerfectUserInfo_SubTitle"="Changez l'avatar; obtenez-le immédiatement après avoir rempli le sexe et l'anniversaire avec succès,";
+"NewIntegral_Start_Publish_Now"="Participez maintenant";
