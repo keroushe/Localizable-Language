@@ -346,7 +346,6 @@
 "sn_240"="Do not update now";
 "sn_241"="After the download is canceled, the project in progress will not be saved\n.";
 "sn_242"="(Update content)";
-
 "sn_243"="open";
 "sn_244"="no SD";
 "sn_245"="Unselect all";
@@ -364,14 +363,12 @@
 "sn_257"="First Name";
 "sn_258"="Last Name";
 "sn_259"="Continue with other ways";
-
 "sn_260"="agree";
 "sn_261"="User Agreement";
 "sn_262"="and";
 "sn_263"="Privacy Policy";
 "sn_264"="Email address";
 "sn_265"="Password";
-
 "sn_266"="Please enter the";
 "sn_267"="The password cannot be empty";
 "sn_268"="The password should contain 6-20 characters, mixing lower and upper case letters and numbers";
@@ -435,15 +432,11 @@
 "sn_1009"="Feedback";
 "sn_1010"="AKASO GO Introduce";
 "sn_1011"="New version available %@";
-
-/*--------------------------------------------------------------------------------------*/
 "sn_3000"="To help protect the security of your account, please verify your email address.";
 "sn_3001"="Just now";
 "sn_3002"="minutes ago";
 "sn_3003"="hours ago";
 "sn_3004"="days ago";
-
-/*------------------------------------------服务器状态码--------------------------------------------*/
 "sn_3900"="You have logged in from another device.";
 "sn_3901"="That email address is registered. ";
 "sn_3902"="Email account or password cannot be empty.";
@@ -459,13 +452,10 @@
 "sn_3912"="The third party has been bound to other email address";
 "sn_3913"="Failed to get user authorization list";
 "sn_3914"="The account or password is incorrect";
-
 "sn_5000"="Thank you for your trust and support for AKASO GO. In order for you to better use AKASO GO, we will obtain the following permissions (which may involve account number, device, location and other relevant information) according to the requirements of relevant functions. \n\n AKASO GO does not obtain, share, or provide your personal information from third parties without your consent; \n\n You can view, correct, or delete your personal information at any time, and AKASO SO will provide a way to log off. \n\n";
-
 "sn30_1"="STEP1: Firstly make sure your keychain is off, press and hold the Power on/off Button to power on your KeyChain camera until the blue indicator is on.";
 "sn30_2"="Step2: Press Power on/off Button button and the yellow indicator flashes to indicate Wi-Fi is enabled.";
 "sn30_3"="Step3: Click the “Live Preview” and follow the prompts to connect your KeyChain camera.";
-
 "sn_photoEdit_01"="%zd videos and %zd photos selected";
 "sn_photoEdit_02"="Picture editing";
 "sn_photoEdit_03"="Crop";
@@ -673,9 +663,9 @@
 "level_title"="My LV Level";
 "level_exp"="%@ growth value";
 "level_need_exp"="growth value Require to Reach %@ ";
-"level_need_exp_1" = "Need %@ Exp";
+"level_need_exp_1"="Need %@ Exp";
 "level_up_desc"="How to level up";
-"level_up_strategy" = "Strategy";
+"level_up_strategy"="Strategy";
 "level_up_reward_tips"="The reward function is under construction and will be completed in the near future. AKASO will inform you as soon as the rewards are available and the rewards will be issued as scheduled!";
 "level_reward_1"="Priority notice on offers, discounts, and latest promotions";
 "level_reward_2"="Priority access to Beta products";
@@ -687,7 +677,7 @@
 "level_reward_8"="VIP exclusive gifts (high value)";
 "level_reward_9"="(A %@ OFF coupon) every month";
 "publish_empty_tips"="Post content cannot be empty!";
-"coins_util"="%@ Points";
+"coins_util"="%@ AK Coins";
 "NewCityChoose_UseCur_Location"="Use current location";
 "NewCityChoose_Title"="Location";
 "NewCityChoose_All"="All";
@@ -713,7 +703,7 @@
 "NewIntegral_Task_Daily_Title"="Daily task";
 "NewIntegral_Task_Get"="Get";
 "NewIntegral_Task_Finished"="Completed";
-"NewIntegral_Task_Units"="Points";
+"NewIntegral_Task_Units"="AK Coins";
 "NewIntegral_TaskEmail_Title"="Verify email";
 "NewIntegral_TaskEmail_SubTitle"="Verify your email address to earn AK coins immediately. You have earned";
 "NewIntegral_TaskBirthday_Title"="Your birthday";
@@ -922,8 +912,7 @@
 "New_Mine_Title"="My";
 "sn_veSave_01"="Save the video successfully";
 "sn_veSave_02"="Failed to save video";
-"redeem_now" = "Redeem now";
-
+"redeem_now"="Redeem now";
 "sn_report_01"="Report";
 "sn_report_02"="Please select a reporting option";
 "sn_report_03"="Please choose the type";
@@ -942,8 +931,115 @@
 "sn_report_17"="This work has been reported by you";
 "sn_report_18"="Report failed";
 "sn_photoEdit_100"="Choose at least one photo";
-
 "sn_connect_30"="If your Keychain is always in the state of flashing yellow and blue lights alternately, just short press any key until the blue light is on.";
-"SNNewShare_more" = "More";
+"SNNewShare_more"="More";
 "sn_connect_31"="Failed to save,\n please check the phone storage space!";
-
+"NewOrder_EmailVerify_Msg"="You need to verify your email address. Check your email inbox for the message we just sent.";
+"points_details_35"="Open treasure box";
+"points_details_36"="Following 10 users";
+"points_details_37"="AK coin consumption";
+"points_details_38"="Complete your profile";
+"points_details_39"="Questionnaire";
+"product_quantity"="Purchase quantity";
+"order_details"="Order details";
+"order_product"="Items";
+"order_info"="Order information";
+"order_id"="Order Number:";
+"order_createTime"="Creation time:";
+"order_product_price"="Product Price";
+"order_freight_price"="Shipping";
+"order_status_process"="Processing";
+"order_status_processing"="Processing...";
+"order_status_shipped"="Shipped";
+"order_status_signFor"="Delivered";
+"order_payment"="Actual payment:";
+"order_viewLogistics"="View Logistics";
+"order_shipmentNumber"="Shipment number";
+"order_confirm"="Confirm receipt";
+"order_confirm_tips"="Have you confirmed receipt of the goods?";
+"order_useTutorial"="Tutorial";
+"order_copy"="Copy";
+"order_copy_success"="Copy successful";
+"order_goto"="Go to view";
+"order_reward_1"="Sign-in reward";
+"order_reward_2"="Day %@ sign-in reward";
+"coins_multiple_reward"="Coins multiple reward";
+"product_inventory_shortage"="Insufficient stock, in replenishment";
+"NewFind_Review_Failed"="Review failed";
+"NewIntegral_Receive_Gift_AkCoin"="%d coins";
+"NewIntegral_Expire_Days"="Expires in %d days";
+"NewIntegral_Expire_HourMinute"="%02d:%02d: Expires after %02d";
+"NewIntegral_Gift_Open_Title"="Open";
+"NewIntegral_Gift_Receive_Title"="Get it right now";
+"NewIntegral_Gift_Receive_Failed"="Failed to claim";
+"NewIntegral_Gift_Receive_Success"="Received successfully";
+"NewIntegral_Gift_GenerateOrder_Failed"="Order failed";
+"NewShopBuy_Result_BackToHome"="Back to homepage";
+"NewShopBuy_Result_ViewOrder"="View order";
+"NewShopBuy_Result_Receive"="Receive";
+"NewShopBuy_Result_Pay_Success"="Payment successful";
+"NewShopBuy_Result_Pay_Success_Message"="Your payment was successful and you will earn %d AK Cash";
+"NewShopBuy_Info_Generate_Failed"="Order generation failed";
+"NewShopBuy_Info_Buttom_Total_Title"="Total:";
+"NewShopBuy_Info_Add_Address"="New shipping address";
+"NewShopBuy_Info_Coupon_Title"="Coupon";
+"NewShopBuy_Info_PayWay_Title"="Payment method";
+"NewShopBuy_Info_Coupon_Empty_Msg"="Not available";
+"NewShopBuy_Info_Available_Integal"="You have %d AK coins available";
+"NewShopBuy_Info_Error_MoreIntegral_1"="Your AK coins balance is less than required";
+"NewShopBuy_Info_Error_MoreIntegral_2"="Exceed the required payment of AK coins";
+"NewShopBuy_Info_Error_Input"="Input error";
+"NewShopBuy_Info_Order_Title"="Shopping settlement";
+"NewShopBuy_Info_Address_Input_Err"="Please fill in the address first, and then operate";
+"NewShopBuy_Info_Choose_Payway"="Please select the payment method";
+"NewShopBuy_Address_InputComplete"="Please fill in all required fields";
+"NewShopBuy_Address_PostCode_Err"="Postal code verification failed";
+"NewShopBuy_Address_Save_Failed"="Failed to save the address";
+"NewShopBuy_Address_Accept_Failed"="Failed to obtain address information";
+"NewShopBuy_Address_Title"="Address";
+"NewShopBuy_Address_Required_Msg"="Required";
+"NewShopBuy_Address_Save_Msg"="Save";
+"NewShopBuy_Info_Coupon_Detail"="Coupon details";
+"NewShopBuy_Info_Coupon_Empty_Detail"="No coupons available";
+"NewShopBuy_Info_OrderInfo_Error"="Failed to obtain order information";
+"NewShopBuy_Result_PopGetAK_Count"="%d AK coins";
+"NewShopBuy_Result_PopGetAK_Msg"="Congratulations on getting";
+"NewShopBuy_Info_Pay_Failed"="Payment failed";
+"NewShopBuy_Info_AK_Unit"="AK Coins";
+"NewShopBuy_Info_Tips1"="Upon clicking ‘Place Order’, I confirm I have read and acknowledged";
+"NewShopBuy_Info_Tips2"="all terms and policies.";
+"NewShopBuy_Info_DetailMsg"="It is your responsibility to ensure that the address for receiving goods is
+correct. A wrong address may result in failing to receive the goods in time or
+failing to receive them.";
+"NewIntegral_TaskPerfectHead_Title"="Change avatar";
+"NewIntegral_TaskPerfectHead_SubTitle"="Change your avatar to earn AK coins immediately. You have earned";
+"NewIntegral_TaskFollowTenUser_Title"="Follow 10 users";
+"NewIntegral_TaskFollowTenUser_SubTitle"="Follow new users to earn AK coins immediately. You have earned";
+"NewIntegral_TaskRecommended_Title"="Posts get recommended";
+"NewIntegral_TaskRecommended_SubTitle"="If your posts obtain official recommendation and recognition, you can get %d AK coins";
+"NewAddress_Hit_Name"="Contact Name";
+"NewAddress_Hit_Mobile"="Mobile";
+"NewAddress_Hit_Street"="Street address, P.O. box, etc.";
+"NewAddress_Hit_Unit"="Apt, suite, unit, etc.";
+"NewAddress_Hit_Country"="Country";
+"NewAddress_Hit_City"="City";
+"NewAddress_Hit_Area"="Area";
+"NewAddress_Hit_Postcode"="Zip/Postal Code";
+"NewShopBuy_Info_Custom_Coins"="Custom AK coins payment";
+"NewShop_Order_Btn"="Place an order now";
+"NewIntegral_Shop_Stock"="In stock:";
+"specifications_tips"="Please choose the type";
+"coins_multiple_reward_tips"="The platform will determine the multiple of coin rewards according to the user's
+contribution and activity status; up to 3x rewards can be obtained";
+"NewIntegral_Gift_Msg_Get"="Consecutive %d days sign-in reward";
+"NewIntegral_Gift_Msg_Expire"="Expire";
+"NewIntegral_Topic_NumMsg"="%d posts";
+"publish_tag_add"="Add tag";
+"publish_topic_search"="Enter a name to search for topics";
+"publish_topic_hotRank"="HOT";
+"publish_heat_count"="%d discussions";
+"publish_tag"="Tag";
+"publish_tag_recommend"="Recommend:";
+"publish_tag_exist"="Tag already exists";
+"publish_tag_input"="Please enter a tag";
+"publish_more"="More";

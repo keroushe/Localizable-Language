@@ -26,8 +26,11 @@ def xml2list(file_name):
             print '%s Format error, please import manually !!!' % (lst[0])
             continue
         
-        key = lst[0].strip('" \n')
-        val = lst[1].strip('"; \n')
+        key = lst[0].strip()
+        val = lst[1].strip()
+
+        key = key.strip('"')
+        val = val.strip('";')
         
         if len(key) == 0:
             continue
@@ -83,8 +86,8 @@ def excel2list(excel_file, sheetname, language):
     duplicatestring = 0
 
     for i in range(1, nrows):
-        k = str(sh.cell_value(i, 0)).strip()
-        v = str(sh.cell_value(i, col)).strip()
+        k = str(sh.cell_value(i, 0))
+        v = str(sh.cell_value(i, col))
         tmp = [k, v]
         
         if len(k) != 0 and len(v) == 0:
