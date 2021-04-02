@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  Video
+
+  Created by saina on 2020/11/14.
+  Copyright © 2020 cnest. All rights reserved.
+*/
+NSAppleMusicUsageDescription = "È possibile utilizzare i file multimediali per la modifica previa autorizzazione";
+NSCameraUsageDescription = "Puoi utilizzare la fotocamera per scattare foto quando consentito";
+NSLocationWhenInUseUsageDescription = "Usa la tua posizione per le statistiche dei dati quando consentito";
+NSLocationAlwaysUsageDescription = "Usa la tua posizione per le statistiche sui dati quando consentito";
+NSMicrophoneUsageDescription = "È possibile utilizzare il microfono per la riproduzione vocale e la registrazione previa autorizzazione";
+NSPhotoLibraryAddUsageDescription = "Puoi accedere al tuo album per aggiungere immagini previa autorizzazione";
+NSPhotoLibraryUsageDescription = "Puoi visualizzare, modificare e salvare foto o video quando consentito";
