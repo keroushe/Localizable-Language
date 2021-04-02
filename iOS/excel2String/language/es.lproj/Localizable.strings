@@ -342,6 +342,7 @@
 "sn_240"="No actualizar temporalmente";
 "sn_241"="Una vez cancelada la descarga, el proyecto en curso no se guardará \n.";
 "sn_207"="El servicio de localización no está activado. para activar el servicio \nAKASO GO en la configuración del sistema es necesario utilizar el servicio de localización para facilitar el uso de la cámara";
+
 "sn_242"="(actualización del contenido)";
 "sn_243"="inicio";
 "sn_244"="Sin SD";
@@ -428,11 +429,20 @@
 "sn_1009"="Retroalimentación";
 "sn_1010"="Introducción de AKASO GO";
 "sn_1011"="Nueva versión%@ encontrada";
+
+
+/*--------------------------------------------------------------------------------------*/
 "sn_3000"="Para la seguridad de su cuenta, verifique su dirección de correo electrónico";
 "sn_3001"="Acaba de";
 "sn_3002"="Hace minutos";
 "sn_3003"="Hace horas";
 "sn_3004"="Hace días";
+
+
+
+
+
+/*------------------------------------------服务器状态码--------------------------------------------*/
 "sn_3900"="El usuario ha iniciado sesión en otro dispositivo";
 "sn_3901"="El email ha sido registrado";
 "sn_3902"="La cuenta de correo electrónico o la contraseña no pueden estar vacías";
@@ -448,10 +458,13 @@
 "sn_3912"="Este tercero ha vinculado otros buzones de correo";
 "sn_3913"="No pudo obtener la lista de autorización de usuario";
 "sn_3914"="Cuenta o contraseña incorrecta";
+
+
 "sn_5000"="Gracias por su confianza y apoyo a AKASO GO. Para que pueda usar AKASO GO mejor, obtendremos sus siguientes permisos (que pueden involucrar la cuenta, el dispositivo, la ubicación y otra información relacionada) de acuerdo con las necesidades de las funciones relacionadas; \n \nAKASO GO no Obtenga, comparta o proporcione su información personal de un tercero; \n \nPuede ver, corregir o eliminar su información personal en cualquier momento, y AKASO SO proporcionará una forma de cancelar. \n \n";
 "sn30_1"="Paso 1: En el estado de apagado, presione y mantenga presionado el botón del interruptor hasta que la luz azul esté encendida";
 "sn30_2"="Paso 2: Haga clic en el botón del interruptor y espere hasta que la luz amarilla parpadee, el WiFi esté encendido";
 "sn30_3"="Paso 3: Haga clic en el botón \"Vista previa en tiempo real\", siga las instrucciones para conectarse a KeyChain";
+
 "sn_photoEdit_01"="%zd videos y %zd fotos seleccionados";
 "sn_photoEdit_02"="Edición de imágenes";
 "sn_photoEdit_03"="Recortar";
@@ -578,7 +591,7 @@
 "NewFind_Publish_Title"="Lo más reciente";
 "NewFind_Publish_Placeholder"="Comparte hermosos momentos";
 "NewFind_Publish_SaveToAlbum"="Guardar en el álbum";
-"NewFind_Publish_AddTopic"="Añadir tema";
+"NewFind_Publish_AddTopic"="Agregar tema";
 "NewFind_Publish_AddLocation"="Dónde estás";
 "NewFind_Publish_Location"="Ubicación";
 "NewFind_Publish_Location_NotShow"="No mostrar ubicación";
@@ -645,7 +658,7 @@
 "coins_super"="Super moneda";
 "coins_ak_num"="%@ Moneda AK";
 "coins_super_num"="%@ Super moneda";
-"coins_util"="%@ Moneda AK";
+"coins_util"="%@ integración";
 "coins_bill"="Detalle";
 "coins_bill_income"="Ingresos";
 "coins_bill_expenditure"="Gasto";
@@ -657,13 +670,13 @@
 "setting_notification_fans"="Fans";
 "setting_notification_system"="Notificación del sistema";
 "setting_notification_tips"="Si alguien te sigue, comenta o le gusta, recibirás un empujón";
-"setting_notification_close"="La notificación push de AKASO GO no está activada, puede encontrar AKASO GO para habilitar la notificación en \"Configuración\" - \"Notificaciones\";
+"setting_notification_close"="La notificación push de AKASO GO no está activada, puede encontrar AKASO GO para habilitar la notificación en \"Configuración\" - \"Notificaciones\"";
 "level_title"="Mi nivel LV";
 "level_exp"="%@ valor de crecimiento";
 "level_need_exp"="Necesita%@ valor de crecimiento";
-"level_need_exp_1"="Necesita %@ Exp";
+"level_need_exp_1" = "Necesita %@ Exp";
 "level_up_desc"="Estrategia de actualización";
-"level_up_strategy"="Estrategia";
+"level_up_strategy" = "Estrategia";
 "level_up_reward_tips"="La función de recompensa está en construcción y se completará en un futuro cercano; AKASO le informará lo antes posible que una vez que se complete la construcción, la recompensa de actualización se emitirá según lo programado.";
 "level_reward_1"="Prioridad para recibir información preferencial";
 "level_reward_2"="Versión de prueba prioritaria";
@@ -699,7 +712,7 @@
 "NewIntegral_Task_Daily_Title"="Tareas diarias";
 "NewIntegral_Task_Get"="Ganar";
 "NewIntegral_Task_Finished"="Cumplido";
-"NewIntegral_Task_Units"="Moneda AK";
+"NewIntegral_Task_Units"="Minuto";
 "NewIntegral_TaskEmail_Title"="Verificar correo electrónico";
 "NewIntegral_TaskEmail_SubTitle"="La verificación por correo electrónico con éxito se obtiene de inmediato";
 "NewIntegral_TaskBirthday_Title"="Complete el cumpleaños";
@@ -865,8 +878,8 @@
 "HXAlbumDepthEffect"="Retrato";
 "HXAlbumLivePhotos"="Fotos en vivo";
 "HXAlbumAnimated"="GIF";
-"exchange_error_1"="Monedas AK y super monedas insuficientes";
-"exchange_error_2"="Monedas AK insuficientes";
+"exchange_error_1"="Monedas AK y super monedas insuficientes ";
+"exchange_error_2"="Monedas AK insuficientes ";
 "exchange_error_3"="Supermoneda insuficiente";
 "points_details_1"="Registrado";
 "points_details_2"="Verificar (activar) correo electrónico";
@@ -874,6 +887,7 @@
 "points_details_4"="Complete la información personal";
 "points_details_5"="Descargar APP";
 "points_details_6"="Iniciar sesión";
+"points_details_7"="1 USD gastado = 5 integrales";
 "points_details_8"="Evaluación de listas / productos";
 "points_details_9"="Visita la comunidad";
 "points_details_10"="Registrarse APP al primer vez e iniciar sesión";
@@ -881,7 +895,7 @@
 "points_details_12"="Inicio de sesión por tercera autorización";
 "points_details_13"="Complete Cumpleaños";
 "points_details_14"="Complete las etiquetas de interés";
-"points_details_15"="Complete Género";
+"points_details_15"="Complete Género ";
 "points_details_16"="Primer gusta";
 "points_details_17"="Primer comentario";
 "points_details_18"="Primer compartir";
@@ -908,6 +922,7 @@
 "sn_veSave_01"="Guarda el video con éxito";
 "sn_veSave_02"="No se pudo guardar el video";
 "redeem_now"="Canjear ahora";
+
 "sn_report_01"="Reporte";
 "sn_report_02"="Por favor seleccione el contenido del informe";
 "sn_report_03"="Por favor elija el tipo";
@@ -927,111 +942,5 @@
 "sn_report_18"="Informe fallido";
 "sn_photoEdit_100"="Elige al menos una foto";
 "sn_connect_30"="Si Keychain siempre está en el estado de luces amarillas y azules intermitentes alternativamente, simplemente presione brevemente cualquier tecla hasta que la luz azul se encienda.";
-"SNNewShare_more"="Más";
+"SNNewShare_more" = "Más";
 "sn_connect_31"="Error al guardar, \n¡Comprueba el espacio de almacenamiento del teléfono!";
-"NewOrder_EmailVerify_Msg"="Lo que está operando requiere la verificación de su dirección de correo electrónico, vaya a su bandeja de entrada para verificar el mensaje que acaba de enviar.";
-"points_details_35"="Abrir el cofre del tesoro";
-"points_details_36"="Siguir a 10 usuarios";
-"points_details_37"="Gasto de monedas AK";
-"points_details_38"="Mejorar la información personal";
-"points_details_39"="Encuesta";
-"product_quantity"="Cantidad de compra";
-"order_details"="Detalles del pedido";
-"order_product"="Producto";
-"order_info"="Información del pedido";
-"order_id"="Número de pedido:";
-"order_createTime"="Tiempo de creación :";
-"order_product_price"="Cantidad del artículo";
-"order_freight_price"="Cantidad de envío";
-"order_status_process"="Procesando";
-"order_status_processing"="Procesando...";
-"order_status_shipped"="Enviado";
-"order_status_signFor"="Firmado";
-"order_payment"="Pago real:";
-"order_viewLogistics"="Ver la logística";
-"order_shipmentNumber"="Número de logística";
-"order_confirm"="Confirmar la recepción de la mercancía";
-"order_confirm_tips"="¿Confirmó la recepción de la mercancía?";
-"order_useTutorial"="Usar tutorial";
-"order_copy"="Copiar";
-"order_copy_success"="Copiado exitosamente";
-"order_goto"="Ir a ver";
-"order_reward_1"="Recompensa por iniciar sesión";
-"order_reward_2"="Recompensa de suscripción %@ día";
-"coins_multiple_reward"="Monedas recompensa multiplicador";
-"product_inventory_shortage"="Agotado,está reabasteciendo";
-"NewFind_Review_Failed"="Revisión no aprobada";
-"NewIntegral_Receive_Gift_AkCoin"="%d monedas";
-"NewIntegral_Expire_Days"="Caduca en %d días";
-"NewIntegral_Expire_HourMinute"="Caduca después de %02d:%02d:%02d";
-"NewIntegral_Gift_Open_Title"="Abrir";
-"NewIntegral_Gift_Receive_Title"="Recibir ahora mismo";
-"NewIntegral_Gift_Receive_Failed"="Recibir fallido";
-"NewIntegral_Gift_Receive_Success"="Recibir con éxito";
-"NewIntegral_Gift_GenerateOrder_Failed"="Pedido fallido";
-"NewShopBuy_Result_BackToHome"="Volver a la pagina de inicio";
-"NewShopBuy_Result_ViewOrder"="Ver el pedido";
-"NewShopBuy_Result_Receive"="Recibir";
-"NewShopBuy_Result_Pay_Success"="Pago exitoso";
-"NewShopBuy_Result_Pay_Success_Message"="Pago exitoso, obtiene %dAK en efectivo";
-"NewShopBuy_Info_Generate_Failed"="Error en la generación de pedidos";
-"NewShopBuy_Info_Buttom_Total_Title"="Total:";
-"NewShopBuy_Info_Add_Address"="Agregar la dirección de recepción";
-"NewShopBuy_Info_Coupon_Title"="Coupon";
-"NewShopBuy_Info_PayWay_Title"="Método de pago";
-"NewShopBuy_Info_Coupon_Empty_Msg"="Indisponible";
-"NewShopBuy_Info_Available_Integal"="Tiene %d monedas AK disponibles";
-"NewShopBuy_Info_Error_MoreIntegral_1"="Exceder las monedas AK que tiene";
-"NewShopBuy_Info_Error_MoreIntegral_2"="Exceder las monedas AK que debe pagar";
-"NewShopBuy_Info_Error_Input"="Entrar incorrecta";
-"NewShopBuy_Info_Order_Title"="Liquidación de compras";
-"NewShopBuy_Info_Address_Input_Err"="Primero complete la dirección y luego continúe";
-"NewShopBuy_Info_Choose_Payway"="Seleccione un método de pago";
-"NewShopBuy_Address_InputComplete"="Rellene todos los campos obligatorios";
-"NewShopBuy_Address_PostCode_Err"="Error en la verificación del código postal";
-"NewShopBuy_Address_Save_Failed"="Error al guardar la dirección";
-"NewShopBuy_Address_Accept_Failed"="Información de dirección no obtenida";
-"NewShopBuy_Address_Title"="Dirección";
-"NewShopBuy_Address_Required_Msg"="Campo requerido";
-"NewShopBuy_Address_Save_Msg"="Salvar";
-"NewShopBuy_Info_Coupon_Detail"="Detalles de la oferta";
-"NewShopBuy_Info_Coupon_Empty_Detail"="No hay cupone disponible";
-"NewShopBuy_Info_OrderInfo_Error"="Información de pedido no obtenida";
-"NewShopBuy_Result_PopGetAK_Count"="%d AK monedas";
-"NewShopBuy_Result_PopGetAK_Msg"="Felicitaciones por conseguir";
-"NewShopBuy_Info_Pay_Failed"="Pago fallido";
-"NewShopBuy_Info_AK_Unit"="AK Moneda";
-"NewShopBuy_Info_Tips1"="Al hacer clic en \"Realizar pedido\", confirmo que he leído y acepto";
-"NewShopBuy_Info_Tips2"="todos los términos y políticas.";
-"NewShopBuy_Info_DetailMsg"="Es su responsabilidad asegurarse de que la dirección para recibir los productos sea correcta. La dirección incorrecta puede resultar en: no recibir los productos a tiempo o no recibirlos.";
-"NewIntegral_TaskPerfectHead_Title"="Cambiar avatar";
-"NewIntegral_TaskPerfectHead_SubTitle"="Cambiar su avatar para ganar monedas AK inmediatamente. Usted ha ganado";
-"NewIntegral_TaskFollowTenUser_Title"="Seguir a 10 usuarios";
-"NewIntegral_TaskFollowTenUser_SubTitle"="Seguir a los nuevos usuarios para ganar monedas AK inmediatamente. Usted ha ganado";
-"NewIntegral_TaskRecommended_Title"="Las publicaciones se recomiendan";
-"NewIntegral_TaskRecommended_SubTitle"="Si sus publicaciones obtienen recomendación y reconocimiento oficiales, puede obtener %d monedas AK";
-"NewAddress_Hit_Name"="Nombre de contacto";
-"NewAddress_Hit_Mobile"="Móvil";
-"NewAddress_Hit_Street"="Dirección postal, apartado postal, etc.";
-"NewAddress_Hit_Unit"="Apt, suite, unidad, etc.";
-"NewAddress_Hit_Country"="País";
-"NewAddress_Hit_City"="Ciudad";
-"NewAddress_Hit_Area"="Área";
-"NewAddress_Hit_Postcode"="Código postal";
-"NewShopBuy_Info_Custom_Coins"="Pago de monedas AK personalizado";
-"NewShop_Order_Btn"="Haz un pedido ahora";
-"NewIntegral_Shop_Stock"="En stock:";
-"specifications_tips"="Por favor elija el tipo";
-"coins_multiple_reward_tips"="La plataforma determinará el múltiplo de las recompensas de monedas de acuerdo con la contribución del usuario y el estado de actividad; se pueden obtener hasta 3x recompensas";
-"NewIntegral_Gift_Msg_Get"="Recompensa por inicio de sesión de %d días consecutivos";
-"NewIntegral_Gift_Msg_Expire"="Expirar";
-"NewIntegral_Topic_NumMsg"="%d mensajes";
-"publish_tag_add"="Añadir etiqueta";
-"publish_topic_search"="Ingrese un nombre para buscar temas";
-"publish_topic_hotRank"="Lista popular";
-"publish_heat_count"="%d discusiones";
-"publish_tag"="Etiqueta";
-"publish_tag_recommend"="Recomendar:";
-"publish_tag_exist"="La etiqueta ya existe";
-"publish_tag_input"="Ingrese una etiqueta";
-"publish_more"="Más";

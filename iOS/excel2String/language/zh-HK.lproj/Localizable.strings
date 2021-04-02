@@ -349,6 +349,7 @@
 "sn_240"="暫時不升級";
 "sn_241"="取消下載後，進行的專案將不會被保\n存。";
 "sn_242"="（升級內容）";
+
 "sn_243"="开启";
 "sn_244"="无SD";
 "sn_245"="全不選";
@@ -366,9 +367,9 @@
 "sn_257"="名";
 "sn_258"="姓";
 "sn_259"="其他方式繼續";
-"sn_260"="若继续代表同意";
+"sn_260"="若继续代表同意 ";
 "sn_261"="使用者協定";
-"sn_262"="和";
+"sn_262"=" 和 ";
 "sn_263"="隱私條款";
 "sn_264"="電子郵寄地址";
 "sn_265"="密碼";
@@ -435,11 +436,20 @@
 "sn_1009"="問題回饋";
 "sn_1010"="AKASO GO介紹";
 "sn_1011"="發現新版本%@";
+
+
+/*--------------------------------------------------------------------------------------*/
 "sn_3000"="為了您的帳戶安全，請驗證您的電子郵寄地址";
 "sn_3001"="剛剛";
 "sn_3002"="分鐘前";
 "sn_3003"="小時前";
 "sn_3004"="天前";
+
+
+
+
+
+/*------------------------------------------服务器状态码--------------------------------------------*/
 "sn_3900"="該使用者已在別的設備上登錄";
 "sn_3901"="該郵箱已註冊過";
 "sn_3902"="郵箱帳號或者密碼不能為空";
@@ -455,10 +465,14 @@
 "sn_3912"="該第三方已綁定其他郵箱";
 "sn_3913"="獲取用戶授權列表失敗";
 "sn_3914"="賬戶或密碼不正確";
+
+
+
 "sn_5000"="感謝您對AKASO GO的信任與支持。為了您更好地使用AKASO GO，我們將會根據相關功能的需要，獲取您的以下權限（可能涉及賬號、設備、定位等相關信息）；\n\n未經您的同意，AKASO GO不會自第三方獲取、共享或對外提供您的個人信息；\n\n您可以隨時查看、更正或刪除您的個人信息，AKASO SO將提供註銷的方式。\n\n";
 "sn30_1"="第一步：關機狀態下，長按開關機鍵直至藍燈為長亮狀態";
 "sn30_2"="第二步：按一下開關機按鍵等到黃燈閃爍，Wi-Fi開啟";
 "sn30_3"="第三步：點擊按鈕“即時預覽”，根據提示連接KeyChain";
+
 "sn_photoEdit_01"="已選擇 %zd 個視頻，%zd 張照片";
 "sn_photoEdit_02"="圖片編輯";
 "sn_photoEdit_03"="裁剪";
@@ -652,7 +666,7 @@
 "coins_super"="超級幣";
 "coins_ak_num"="%@AK幣";
 "coins_super_num"="%@超級幣";
-"coins_util"="%@ AK幣";
+"coins_util"="%@積分";
 "coins_bill"="明細";
 "coins_bill_income"="收入";
 "coins_bill_expenditure"="支出";
@@ -668,7 +682,7 @@
 "level_title"="我的LV等級";
 "level_exp"="%@ 成長值";
 "level_need_exp"="需要%@成長值";
-"level_need_exp_1"="需要%@Exp";
+"level_need_exp_1" = "需要%@Exp";
 "level_up_desc"="升級攻略";
 "level_up_reward_tips"="獎勵功能正在建設中，近期將建設好；AKASO 會第一時間告知你，待建設好，升級獎勵如期發放！";
 "level_reward_1"="優先接收優惠信息";
@@ -705,7 +719,7 @@
 "NewIntegral_Task_Daily_Title"="每日任務";
 "NewIntegral_Task_Get"="獲得";
 "NewIntegral_Task_Finished"="已完成";
-"NewIntegral_Task_Units"="AK幣";
+"NewIntegral_Task_Units"="分";
 "NewIntegral_TaskEmail_Title"="驗證郵箱";
 "NewIntegral_TaskEmail_SubTitle"="郵箱驗證成功立即獲得，已得到";
 "NewIntegral_TaskBirthday_Title"="填寫生日";
@@ -880,6 +894,7 @@
 "points_details_4"="完善個人資料";
 "points_details_5"="下載APP";
 "points_details_6"="登錄";
+"points_details_7"="消費1美元=5積分";
 "points_details_8"="曬單/商品評價";
 "points_details_9"="訪問社群";
 "points_details_10"="APP⾸次註冊並登錄";
@@ -914,6 +929,7 @@
 "sn_veSave_01"="保存視頻成功";
 "sn_veSave_02"="保存視頻失敗";
 "redeem_now"="立即兌換";
+
 "sn_report_01"="舉報";
 "sn_report_02"="請選擇舉報內容";
 "sn_report_03"="請選擇類型";
@@ -933,111 +949,6 @@
 "sn_report_18"="舉報失敗";
 "sn_photoEdit_100"="至少選擇一個照片";
 "sn_connect_30"="若keychain一直處於黃燈藍燈交替閃爍狀態，只需短按任意鍵直至藍燈長亮狀態即可";
-"SNNewShare_more"="更多";
+
+"SNNewShare_more" = "更多";
 "sn_connect_31"="保存失敗，\n請檢查手機存儲空間！";
-"NewOrder_EmailVerify_Msg"="你所操作的事項需要進行郵箱地址的驗證，請到你的收件箱查看我們剛剛發送到消息。";
-"points_details_35"="開寶箱";
-"points_details_36"="關注10位用戶";
-"points_details_37"="AK幣消費";
-"points_details_38"="完善個人信息";
-"points_details_39"="問卷調查";
-"product_quantity"="購買數量";
-"order_details"="訂單詳情";
-"order_product"="商品";
-"order_info"="訂單信息";
-"order_id"="訂單編號：";
-"order_createTime"="創建時間：";
-"order_product_price"="商品金額";
-"order_freight_price"="運費金額";
-"order_status_process"="處理中";
-"order_status_processing"="處理中...";
-"order_status_shipped"="已發貨";
-"order_status_signFor"="已簽收";
-"order_payment"="實際支付：";
-"order_viewLogistics"="查看物流";
-"order_shipmentNumber"="物流單號";
-"order_confirm"="確認收貨";
-"order_confirm_tips"="確認收到貨了嗎？";
-"order_useTutorial"="使用教程";
-"order_copy"="複製";
-"order_copy_success"="複製成功";
-"order_goto"="前往查看";
-"order_reward_1"="簽到獎勵";
-"order_reward_2"="簽到%@天獎勵";
-"coins_multiple_reward"="金幣收入倍數獎勵";
-"product_inventory_shortage"="庫存不足，補貨中";
-"NewFind_Review_Failed"="審核未通過";
-"NewIntegral_Receive_Gift_AkCoin"="%d金幣";
-"NewIntegral_Expire_Days"="%d天后過期";
-"NewIntegral_Expire_HourMinute"="%02d:%02d:%02d後過期";
-"NewIntegral_Gift_Open_Title"="打開";
-"NewIntegral_Gift_Receive_Title"="立即領取";
-"NewIntegral_Gift_Receive_Failed"="領取失敗";
-"NewIntegral_Gift_Receive_Success"="領取成功";
-"NewIntegral_Gift_GenerateOrder_Failed"="下單失敗";
-"NewShopBuy_Result_BackToHome"="返回首頁";
-"NewShopBuy_Result_ViewOrder"="查看訂單";
-"NewShopBuy_Result_Receive"="領取";
-"NewShopBuy_Result_Pay_Success"="支付成功";
-"NewShopBuy_Result_Pay_Success_Message"="支付成功,獲得%dAK Cash";
-"NewShopBuy_Info_Generate_Failed"="訂單生成失敗";
-"NewShopBuy_Info_Buttom_Total_Title"="總計：";
-"NewShopBuy_Info_Add_Address"="新增收貨地址";
-"NewShopBuy_Info_Coupon_Title"="優惠券";
-"NewShopBuy_Info_PayWay_Title"="支付方式";
-"NewShopBuy_Info_Coupon_Empty_Msg"="暫無可用";
-"NewShopBuy_Info_Available_Integal"="您有 %d AK幣可用";
-"NewShopBuy_Info_Error_MoreIntegral_1"="超出擁有的AK幣";
-"NewShopBuy_Info_Error_MoreIntegral_2"="超出所需支付的AK幣";
-"NewShopBuy_Info_Error_Input"="輸入有誤";
-"NewShopBuy_Info_Order_Title"="購物結算";
-"NewShopBuy_Info_Address_Input_Err"="請先填寫地址，然後再操作";
-"NewShopBuy_Info_Choose_Payway"="請選擇支付方式";
-"NewShopBuy_Address_InputComplete"="請填寫所有必填項";
-"NewShopBuy_Address_PostCode_Err"="郵政編碼驗證失敗";
-"NewShopBuy_Address_Save_Failed"="地址保存失敗";
-"NewShopBuy_Address_Accept_Failed"="地址信息獲取失敗";
-"NewShopBuy_Address_Title"="地址";
-"NewShopBuy_Address_Required_Msg"="必填";
-"NewShopBuy_Address_Save_Msg"="保存";
-"NewShopBuy_Info_Coupon_Detail"="優惠詳情";
-"NewShopBuy_Info_Coupon_Empty_Detail"="暫無可用優惠券";
-"NewShopBuy_Info_OrderInfo_Error"="訂單信息獲取失敗";
-"NewShopBuy_Result_PopGetAK_Count"="%dAK幣";
-"NewShopBuy_Result_PopGetAK_Msg"="祝賀獲得";
-"NewShopBuy_Info_Pay_Failed"="支付失敗";
-"NewShopBuy_Info_AK_Unit"="AK 幣";
-"NewShopBuy_Info_Tips1"="點擊“下單”時，我確認我已閱讀並確認";
-"NewShopBuy_Info_Tips2"="所有條款和政策。";
-"NewShopBuy_Info_DetailMsg"="您有責任確保收貨地址正確。錯誤的地址可能會導致未能及時收到貨物或未能收到貨物。";
-"NewIntegral_TaskPerfectHead_Title"="更換頭像";
-"NewIntegral_TaskPerfectHead_SubTitle"="更換頭像成功後立即獲得，已得到";
-"NewIntegral_TaskFollowTenUser_Title"="關注10個用戶";
-"NewIntegral_TaskFollowTenUser_SubTitle"="關注成功後立即獲得，已得到";
-"NewIntegral_TaskRecommended_Title"="動態被推薦";
-"NewIntegral_TaskRecommended_SubTitle"="動態獲得官方推薦與認可，即可獲得%d AK幣";
-"NewAddress_Hit_Name"="姓名";
-"NewAddress_Hit_Mobile"="電話";
-"NewAddress_Hit_Street"="街道地址、郵箱編號等";
-"NewAddress_Hit_Unit"="公寓，套房，單位等";
-"NewAddress_Hit_Country"="國家";
-"NewAddress_Hit_City"="城市";
-"NewAddress_Hit_Area"="區域";
-"NewAddress_Hit_Postcode"="郵編/郵政編碼";
-"NewShopBuy_Info_Custom_Coins"="自定義AK幣支付";
-"NewShop_Order_Btn"="立即下單";
-"NewIntegral_Shop_Stock"="庫存:";
-"specifications_tips"="請選擇類型";
-"coins_multiple_reward_tips"="平台會根據用戶的貢獻度、活躍度狀況來決定當前的金幣獎勵倍數；最高可獲得3倍獎勵值";
-"NewIntegral_Gift_Msg_Get"="連續簽到%d天獲得";
-"NewIntegral_Gift_Msg_Expire"="過期";
-"NewIntegral_Topic_NumMsg"="%d條動態";
-"publish_tag_add"="添加標籤";
-"publish_topic_search"="輸入名稱搜索話題";
-"publish_topic_hotRank"="熱門榜";
-"publish_heat_count"="%d條討論";
-"publish_tag"="標籤";
-"publish_tag_recommend"="推薦：";
-"publish_tag_exist"="標籤已存在";
-"publish_tag_input"="請輸入標籤";
-"publish_more"="更多";

@@ -313,7 +313,7 @@
 "sn_210"="Software-Aktualisierung";
 "sn_211"="neue Version";
 "sn_212"="Der Download der Kamera-Firmware ist abgeschlossen";
-"sn_213"="Nach dem Anschließen der Kamera kann eine neue Firmware";
+"sn_213"="Nach dem Anschließen der Kamera kann eine neue Firmware ";
 "sn_214"="Firmware Update";
 "sn_215"="Aktualisierung";
 "sn_216"="warten...";
@@ -343,6 +343,7 @@
 "sn_241"="Nachdem der Download abgebrochen wurde, wird das laufende Projekt nicht gespeichert \n.";
 "sn_242"="(Inhalt aktualisieren)";
 "sn_207"="Der Ortungsdienst ist nicht aktiviert. Bitte aktivieren Sie den Dienst in den Systemeinstellungen. \n AKAKASO GO muss Ihren Ortungsdienst verwenden, um die Kamera bequemer nutzen zu können";
+
 "sn_243"="Schalte ein";
 "sn_244"="Keine SD";
 "sn_245"="Alles wiederufen";
@@ -429,11 +430,21 @@
 "sn_1009"="Feedback";
 "sn_1010"="Einführung von AKASO GO";
 "sn_1011"="Neue Version %@ gefunden";
+
+
+/*--------------------------------------------------------------------------------------*/
 "sn_3000"="Überprüfen Sie Ihre E-Mail-Adresse, um die Sicherheit Ihres Kontos zu gewährleisten.";
 "sn_3001"="Grade eben";
 "sn_3002"="Vor ein paar Minuten";
 "sn_3003"="Vor Stunden";
 "sn_3004"="Vor Tagen";
+
+
+
+
+
+
+/*------------------------------------------服务器状态码--------------------------------------------*/
 "sn_3900"="Sie haben sich von einem anderen Gerät aus angemeldet.";
 "sn_3901"="Diese E-Mail-Adresse ist registriert.";
 "sn_3902"="E-Mail-Konto oder Passwort dürfen nicht leer sein.";
@@ -449,10 +460,13 @@
 "sn_3912"="Der Dritte wurde an eine andere E-Mail-Adresse gebunden";
 "sn_3913"="Benutzerautorisierungsliste konnte nicht abgerufen werden";
 "sn_3914"="Falsches Konto oder Passwort";
+
+
 "sn_5000"="Vielen Dank für Ihr Vertrauen und Ihre Unterstützung für AKASO GO. Damit Sie AKASO GO besser nutzen können, erhalten wir Ihre folgenden Berechtigungen (einschließlich Konto, Gerät, Standort und anderer zugehöriger Informationen) entsprechend den Anforderungen der zugehörigen Funktionen. \n\nAKASO GO wird dies nicht tun Erhalten, teilen oder geben Sie Ihre persönlichen Daten von Dritten an; \n \nSie können Ihre persönlichen Daten jederzeit anzeigen, korrigieren oder löschen, und AKASO SO bietet eine Möglichkeit zum Abbrechen. \n\n";
 "sn30_1"="Schritt 1: Halten Sie im ausgeschalteten Zustand die Schaltertaste gedrückt, bis das blaue Licht immer leuchtet";
 "sn30_2"="Schritt 2: Klicken Sie auf die Umschalttaste, bis das gelbe Licht blinkt und Wi-Fi eingeschaltet ist";
 "sn30_3"="Schritt 3: Klicken Sie auf die Schaltfläche \"Echtzeitvoransicht\" und befolgen Sie die Anweisungen, um eine Verbindung zu KeyChain herzustellen";
+
 "sn_photoEdit_01"="%zd Videos und%zd Fotos ausgewählt";
 "sn_photoEdit_02"="Bildbearbeitung";
 "sn_photoEdit_03"="Zuschneiden";
@@ -579,7 +593,7 @@
 "NewFind_Publish_Title"="Was gibt's Neues";
 "NewFind_Publish_Placeholder"="Teile schöne Momente";
 "NewFind_Publish_SaveToAlbum"="In Alben speichern";
-"NewFind_Publish_AddTopic"="Thema hinzufügen";
+"NewFind_Publish_AddTopic"="Fügen Sie ein Thema hinzu";
 "NewFind_Publish_AddLocation"="Wo sind Sie";
 "NewFind_Publish_Location"="Ort";
 "NewFind_Publish_Location_NotShow"="Zeigen Sie den Standort nicht an";
@@ -646,7 +660,7 @@
 "coins_super"="Super Münze";
 "coins_ak_num"="%@ AK Münze";
 "coins_super_num"="%@ Super Münze";
-"coins_util"="% @ AK Coin";
+"coins_util"="%@ Integrals";
 "coins_bill"="Einzelheiten";
 "coins_bill_income"="Einkommen";
 "coins_bill_expenditure"="Ausgaben";
@@ -662,7 +676,7 @@
 "level_title"="Mein Level";
 "level_exp"="%@ Erfahrungspunkte";
 "level_need_exp"="Erfahrungspunkte erforderlich, um%@ zu erreichen";
-"level_need_exp_1"="Benötigen Sie %@ Exp";
+"level_need_exp_1" = "Benötigen Sie %@ Exp";
 "level_up_desc"="Wie man aufsteigt";
 "level_up_strategy"="Strategie";
 "level_up_reward_tips"="Die Belohnungsfunktion befindet sich im Aufbau und wird in naher Zukunft abgeschlossen sein. AKASO wird Sie informieren, sobald die Belohnungen verfügbar sind und die Belohnungen wie geplant ausgegeben werden!";
@@ -700,7 +714,7 @@
 "NewIntegral_Task_Daily_Title"="Tägliche Aufgabe";
 "NewIntegral_Task_Get"="Bekommen";
 "NewIntegral_Task_Finished"="Abgeschlossen";
-"NewIntegral_Task_Units"="AK Münze";
+"NewIntegral_Task_Units"="Wert";
 "NewIntegral_TaskEmail_Title"="E-Mail bestätigen";
 "NewIntegral_TaskEmail_SubTitle"="E-Mail-Bestätigung wird sofort erfolgreich erhalten, wurde";
 "NewIntegral_TaskBirthday_Title"="Füllen Sie den Geburtstag aus";
@@ -875,6 +889,7 @@
 "points_details_4"="Lade App herunter";
 "points_details_5"="Einloggen";
 "points_details_6"="Einloggen";
+"points_details_7"="1 USD ausgegeben = 5 Punkte";
 "points_details_8"="Listen- / Warenbewertung";
 "points_details_9"="Besuchen Sie die Community";
 "points_details_10"="APP zuerst registrieren und anmelden";
@@ -909,6 +924,7 @@
 "sn_veSave_01"="Speichern Sie das Video erfolgreich";
 "sn_veSave_02"="Video konnte nicht gespeichert werden";
 "redeem_now"="Jetzt einlösen";
+
 "sn_report_01"="Berichten";
 "sn_report_02"="Bitte wählen Sie den Berichtsinhalt aus";
 "sn_report_03"="Bitte wählen Sie den Typ";
@@ -927,112 +943,7 @@
 "sn_report_17"="Diese Arbeit wurde von Ihnen gemeldet";
 "sn_report_18"="Bericht fehlgeschlagen";
 "sn_photoEdit_100"="Wählen Sie mindestens ein Foto";
+
 "sn_connect_30"="Wenn der Schlüsselbund immer abwechselnd gelbe und blaue Lichter blinkt, drücken Sie einfach kurz eine beliebige Taste, bis das blaue Licht leuchtet.";
-"SNNewShare_more"="Mehr";
+"SNNewShare_more" = "Mehr";
 "sn_connect_31"="Speichern fehlgeschlagen, \nBitte überprüfen Sie den Speicherplatz des Telefons!";
-"NewOrder_EmailVerify_Msg"="Sie müssen Ihre E-Mail-Adresse überprüfen. Bitte gehen Sie in Ihren Posteingang, um die gerade gesendete Nachricht zu überprüfen.";
-"points_details_35"="Schatztruhe öffnen";
-"points_details_36"="Folgende 10 Benutzer";
-"points_details_37"="AK Münzverbrauch";
-"points_details_38"="Persönliche Informationen verbessern";
-"points_details_39"="Fragebogen";
-"product_quantity"="Kaufmenge";
-"order_details"="Bestelldetails";
-"order_product"="Ware";
-"order_info"="Bestellinformationen";
-"order_id"="Bestellnummer:";
-"order_createTime"="Erstellungszeitpunkt:";
-"order_product_price"="Die Summe der Waren";
-"order_freight_price"="Versandsumme";
-"order_status_process"="wird bearbeitet";
-"order_status_processing"="Wird bearbeitet...";
-"order_status_shipped"="Versand";
-"order_status_signFor"="Wurde erhalten";
-"order_payment"="tatsächliche Zahlung:";
-"order_viewLogistics"="Logistik anzeigen";
-"order_shipmentNumber"="Lieferungsnummer";
-"order_confirm"="Empfang bestätigen";
-"order_confirm_tips"="Haben Sie den Erhalt der Ware bestätigt?";
-"order_useTutorial"="Verwenden Sie das Tutorial";
-"order_copy"="Kopieren";
-"order_copy_success"="Erfolgreich kopieren";
-"order_goto"="Zur Ansicht gehen";
-"order_reward_1"="Anmeldebelohnung";
-"order_reward_2"="Anmelden% @ Tag Belohnung";
-"coins_multiple_reward"="Goldmünzeneinkommen mehrfache Belohnung";
-"product_inventory_shortage"="Unzureichender Vorrat, Nachschub";
-"NewFind_Review_Failed"="Prüfung fehlgeschlagen";
-"NewIntegral_Receive_Gift_AkCoin"="% d Münzen";
-"NewIntegral_Expire_Days"="Läuft in% d Tagen ab";
-"NewIntegral_Expire_HourMinute"="% 02d:% 02d: Läuft nach% 02d ab";
-"NewIntegral_Gift_Open_Title"="öffnen";
-"NewIntegral_Gift_Receive_Title"="Hol es dir jetzt";
-"NewIntegral_Gift_Receive_Failed"="Anspruch fehlgeschlagen";
-"NewIntegral_Gift_Receive_Success"="Erfolgreich erhalten";
-"NewIntegral_Gift_GenerateOrder_Failed"="Bestellung fehlgeschlagen";
-"NewShopBuy_Result_BackToHome"="Zurück zur Startseite";
-"NewShopBuy_Result_ViewOrder"="prüfe der Auftrag";
-"NewShopBuy_Result_Receive"="erhalten";
-"NewShopBuy_Result_Pay_Success"="Bezahlung erfolgreich";
-"NewShopBuy_Result_Pay_Success_Message"="Die Zahlung ist erfolgreich und Sie erhalten% dAK Cash";
-"NewShopBuy_Info_Generate_Failed"="Auftragserstellung fehlgeschlagen";
-"NewShopBuy_Info_Buttom_Total_Title"="Endsumme";
-"NewShopBuy_Info_Add_Address"="Neue Lieferadresse";
-"NewShopBuy_Info_Coupon_Title"="Coupon";
-"NewShopBuy_Info_PayWay_Title"="Zahlungsmethode";
-"NewShopBuy_Info_Coupon_Empty_Msg"="Nicht verfügbar";
-"NewShopBuy_Info_Available_Integal"="Sie haben% d AK-Token verfügbar";
-"NewShopBuy_Info_Error_MoreIntegral_1"="AK-Münzen überschritten";
-"NewShopBuy_Info_Error_MoreIntegral_2"="Überschreiten Sie die erforderliche Zahlung von AK-Münzen";
-"NewShopBuy_Info_Error_Input"="Eingabe Fehler";
-"NewShopBuy_Info_Order_Title"="Einkaufsbilanz";
-"NewShopBuy_Info_Address_Input_Err"="Bitte ausfüllen Sie zuerst die Adresse ein und arbeiten Sie dann";
-"NewShopBuy_Info_Choose_Payway"="Bitte wählen Sie die Zahlungsmethode";
-"NewShopBuy_Address_InputComplete"="Bitte füllen Sie alle geforderten Felder aus";
-"NewShopBuy_Address_PostCode_Err"="Überprüfung der Postleitzahl fehlgeschlagen";
-"NewShopBuy_Address_Save_Failed"="Adresse speichert nicht";
-"NewShopBuy_Address_Accept_Failed"="Adressinformationen erhält fehlgeschlagen";
-"NewShopBuy_Address_Title"="Adresse";
-"NewShopBuy_Address_Required_Msg"="Erforderlich";
-"NewShopBuy_Address_Save_Msg"="speichern";
-"NewShopBuy_Info_Coupon_Detail"="Angebotsdetails";
-"NewShopBuy_Info_Coupon_Empty_Detail"="Keine Gutscheine verfügbar";
-"NewShopBuy_Info_OrderInfo_Error"="Bestellinformationen erhäit fehlgeschlagen";
-"NewShopBuy_Result_PopGetAK_Count"="% dAK Münze";
-"NewShopBuy_Result_PopGetAK_Msg"="Herzlichen Glückwunsch zum Erhalten";
-"NewShopBuy_Info_Pay_Failed"="Bezahlung fehlgeschlagen";
-"NewShopBuy_Info_AK_Unit"="AK Münze";
-"NewShopBuy_Info_Tips1"="Wenn Sie auf \"Bestellung aufgeben\" klicken, bestätige ich, dass ich gelesen und bestätigt habe";
-"NewShopBuy_Info_Tips2"="alle Bedingungen und Richtlinien.";
-"NewShopBuy_Info_DetailMsg"="Es liegt in Ihrer Verantwortung sicherzustellen, dass die Adresse für den Wareneingang richtig lautet.Eine falsche Adresse kann dazu führen, dass die Ware nicht rechtzeitig oder die Ware ganz nicht empfangen.";
-"NewIntegral_TaskPerfectHead_Title"="Avatar ändern";
-"NewIntegral_TaskPerfectHead_SubTitle"="Erhalten Sie sofort nach erfolgreichem Ändern des Avatars, bereits erhalten";
-"NewIntegral_TaskFollowTenUser_Title"="Folgen Sie 10 Benutzern";
-"NewIntegral_TaskFollowTenUser_SubTitle"="Erhalten unmittelbar nach erfolgreicher Aufmerksamkeit, wurde erhalten";
-"NewIntegral_TaskRecommended_Title"="Dynamisch empfohlen";
-"NewIntegral_TaskRecommended_SubTitle"="Wenn Sie dynamisch eine offizielle Empfehlung und Anerkennung erhalten, können Sie% d AK-Münzen bekommen";
-"NewAddress_Hit_Name"="Kontaktname";
-"NewAddress_Hit_Mobile"="Mobiltelefon";
-"NewAddress_Hit_Street"="Straße, P.O. Box usw.";
-"NewAddress_Hit_Unit"="Wohnung, Suite, Einheit usw.";
-"NewAddress_Hit_Country"="Land";
-"NewAddress_Hit_City"="Stadt";
-"NewAddress_Hit_Area"="Bereich";
-"NewAddress_Hit_Postcode"="Postleitzahl";
-"NewShopBuy_Info_Custom_Coins"="Benutzerdefinierte AK-Währungszahlung";
-"NewShop_Order_Btn"="Bestellen Sie jetzt";
-"NewIntegral_Shop_Stock"="auf Lager:";
-"specifications_tips"="Bitte wählen Sie den Typ";
-"coins_multiple_reward_tips"="Die Plattform ermittelt das aktuelle Goldmünzen-Belohnungsmultiplikator entsprechend dem Beitrag und dem Aktivitätsstatus des Benutzers.Es kann am meisten 3Multiplum des Belohnungswerts erhalten.";
-"NewIntegral_Gift_Msg_Get"="Aufeinanderfolgende% d Tage Anmeldebelohnung";
-"NewIntegral_Gift_Msg_Expire"="Abgelaufen";
-"NewIntegral_Topic_NumMsg"="% d Beiträge";
-"publish_tag_add"="Etikette hinzufügen";
-"publish_topic_search"="Geben Sie einen Namen ein, um nach Themen zu suchen";
-"publish_topic_hotRank"="Beliebte Liste";
-"publish_heat_count"="% d Diskussionen";
-"publish_tag"="Etikette";
-"publish_tag_recommend"="empfehlen:";
-"publish_tag_exist"="Etikette existiert bereits";
-"publish_tag_input"="Bitte geben Sie ein Etikett ein";
-"publish_more"="Mehr";
