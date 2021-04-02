@@ -1114,9 +1114,9 @@
 "NewShopBuy_Result_PopGetAK_Msg" = "祝贺获得";
 "NewShopBuy_Info_Pay_Failed" = "支付失败";
 "NewShopBuy_Info_AK_Unit" = "AK Cash";
-"NewShopBuy_Info_Tips1" = "Upon clicking ‘Place Order’, I confirm I have read and acknowedge";
-"NewShopBuy_Info_Tips2" = "all terms and policies.";
-"NewShopBuy_Info_DetailMsg" = "It is your responsibility to ensure that the address for receiving goods is correct. Wrong address may result in : failure to receive the goods in time or the failure to receive them.";
+"NewShopBuy_Info_Tips1" = "点击“下单”时，我确认我已阅读并确认";
+"NewShopBuy_Info_Tips2" = "所有条款和政策。";
+"NewShopBuy_Info_DetailMsg" = "您有责任确保收货地址正确。错误的地址可能会导致未能及时收到货物或未能收到货物。";
 // 金币任务
 "NewIntegral_TaskPerfectHead_Title" = "更换头像";
 "NewIntegral_TaskPerfectHead_SubTitle" = "更换头像成功后立即获得，已得到";
@@ -1128,14 +1128,14 @@
 "NewIntegral_TaskPerfectUserInfo_SubTitle" = "更换头像; 性别、生日填写成功后立即获得，已得到";
 "NewShop_Order_Btn" = "立即下单";
 // 默认文字信息
-"NewAddress_Hit_Name" = "Contact Name";
-"NewAddress_Hit_Mobile" = "Mobile";
-"NewAddress_Hit_Street" = "Street address,P.O.box,etc.";
-"NewAddress_Hit_Unit" = "Apt,suite,unit,etc.";
-"NewAddress_Hit_Country" = "Country";
-"NewAddress_Hit_City" = "City";
-"NewAddress_Hit_Area" = "Area";
-"NewAddress_Hit_Postcode" = "Zip/Postal Code";
+"NewAddress_Hit_Name" = "姓名";
+"NewAddress_Hit_Mobile" = "电话";
+"NewAddress_Hit_Street" = "街道地址、邮箱编号等";
+"NewAddress_Hit_Unit" = "公寓，套房，单位等";
+"NewAddress_Hit_Country" = "国家";
+"NewAddress_Hit_City" = "城市";
+"NewAddress_Hit_Area" = "区域";
+"NewAddress_Hit_Postcode" = "邮编/邮政编码";
 // 新增
 "NewIntegral_Gift_Msg_Get" = "连续签到%d天获得";
 "NewIntegral_Gift_Msg_Expire" = "过期";
@@ -1150,6 +1150,6 @@
 "publish_heat_count" = "%d条讨论";
 "publish_topic_hotRank" = "热门榜";
 "publish_topic_search" = "输入名称搜索话题";
-
+"NewIntegral_Start_Publish_Now" = "立即参与";
 
 

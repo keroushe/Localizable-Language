@@ -1027,11 +1027,11 @@
 "coins_multiple_reward_tips"="La piattaforma determinerà l'attuale moltiplicatore della montete AK  in base al contributo e allo stato di attività dell'utente; fino a 3 volte il valore della ricompensa";
 "NewIntegral_Gift_Msg_Get"="";
 "NewIntegral_Gift_Msg_Expire"="Scadenza";
-"NewIntegral_Topic_NumMsg"="% d post";
+"NewIntegral_Topic_NumMsg"="%d post";
 "publish_tag_add"="Aggiungi Tag";
 "publish_topic_search"="";
 "publish_topic_hotRank"="CALDO";
-"publish_heat_count"="% d discussioni";
+"publish_heat_count"="%d discussioni";
 "publish_tag"="Etichetta";
 "publish_tag_recommend"="Consiglia:";
 "publish_tag_exist"="Il tag esiste già";

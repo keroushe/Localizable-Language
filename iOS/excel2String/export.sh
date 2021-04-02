@@ -1,4 +1,4 @@
-python excel2string_nosort.py AKASOGO_lan.xlsx "AKASO GO3.1.0" "中文" language/zh-Hans.lproj/Localizable.strings
+#python excel2string_nosort.py AKASOGO_lan.xlsx "AKASO GO3.1.0" "中文" language/zh-Hans.lproj/Localizable.strings
 echo "\n"
 python excel2string_nosort.py AKASOGO_lan.xlsx "AKASO GO3.1.0" "中文繁体（HK）" language/zh-HK.lproj/Localizable.strings
 echo "\n"

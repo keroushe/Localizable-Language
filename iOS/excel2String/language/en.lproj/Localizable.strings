@@ -1029,8 +1029,7 @@ failing to receive them.";
 "NewShop_Order_Btn"="Place an order now";
 "NewIntegral_Shop_Stock"="In stock:";
 "specifications_tips"="Please choose the type";
-"coins_multiple_reward_tips"="The platform will determine the multiple of coin rewards according to the user's
-contribution and activity status; up to 3x rewards can be obtained";
+"coins_multiple_reward_tips"="The platform will determine the multiple of coin rewards according to the user's contribution and activity status; up to 3x rewards can be obtained";
 "NewIntegral_Gift_Msg_Get"="Consecutive %d days sign-in reward";
 "NewIntegral_Gift_Msg_Expire"="Expire";
 "NewIntegral_Topic_NumMsg"="%d posts";
