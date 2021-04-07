@@ -1008,9 +1008,6 @@
 "NewShopBuy_Info_AK_Unit"="AK Coins";
 "NewShopBuy_Info_Tips1"="Upon clicking ‘Place Order’, I confirm I have read and acknowledged";
 "NewShopBuy_Info_Tips2"="all terms and policies.";
-"NewShopBuy_Info_DetailMsg"="It is your responsibility to ensure that the address for receiving goods is
-correct. A wrong address may result in failing to receive the goods in time or
-failing to receive them.";
 "NewIntegral_TaskPerfectHead_Title"="Change avatar";
 "NewIntegral_TaskPerfectHead_SubTitle"="Change your avatar to earn AK coins immediately. You have earned";
 "NewIntegral_TaskFollowTenUser_Title"="Follow 10 users";
@@ -1045,3 +1042,4 @@ failing to receive them.";
 "NewIntegral_TaskPerfectUserInfo_Title"="Improve personal information";
 "NewIntegral_TaskPerfectUserInfo_SubTitle"="Change the avatar; get it immediately after filling in gender and birthday successfully, already got";
 "NewIntegral_Start_Publish_Now"="Participate now";
+"NewShopBuy_Info_DetailMsg"="It is your responsibility to ensure that the address for receiving goods is correct. A wrong address may result in failing to receive the goods in time or failing to receive them.";

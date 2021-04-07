@@ -6,6 +6,7 @@ import sys
 import string
 import pdb
 import collections
+import re
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -17,9 +18,16 @@ def xml2list(file_name):
     keys = []
     tmp = []
     duplicatestring = 0
-    
+    pattern = re.compile(r'"(\s|\S){0,}?[^\\]";{0,1}')
+
     for line in f1:
-        lst = line.split('=')
+        lst = []
+        for match in re.finditer(pattern, line):
+            s = match.start()
+            e = match.end()
+            lst.append(line[s:e])
+
+        # lst = line.split('=')
         if len(lst) <= 1:
             continue
         elif len(lst) != 2:
