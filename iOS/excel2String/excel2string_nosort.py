@@ -38,7 +38,10 @@ def xml2list(file_name):
         val = lst[1].strip()
 
         key = key.strip('"')
-        val = val.strip('";')
+        if val.endswith('\"";'):
+            val = val[1:-2]
+        else:
+            val = val.strip('";')
         
         if len(key) == 0:
             continue
