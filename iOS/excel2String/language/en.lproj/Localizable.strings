@@ -1008,9 +1008,6 @@
 "NewShopBuy_Info_AK_Unit"="AK Coins";
 "NewShopBuy_Info_Tips1"="Upon clicking ‘Place Order’, I confirm I have read and acknowledged";
 "NewShopBuy_Info_Tips2"="all terms and policies.";
-"NewShopBuy_Info_DetailMsg"="It is your responsibility to ensure that the address for receiving goods is
-correct. A wrong address may result in failing to receive the goods in time or
-failing to receive them.";
 "NewIntegral_TaskPerfectHead_Title"="Change avatar";
 "NewIntegral_TaskPerfectHead_SubTitle"="Change your avatar to earn AK coins immediately. You have earned";
 "NewIntegral_TaskFollowTenUser_Title"="Follow 10 users";
@@ -1029,7 +1026,8 @@ failing to receive them.";
 "NewShop_Order_Btn"="Place an order now";
 "NewIntegral_Shop_Stock"="In stock:";
 "specifications_tips"="Please choose the type";
-"coins_multiple_reward_tips"="The platform will determine the multiple of coin rewards according to the user's contribution and activity status; up to 3x rewards can be obtained";
+"coins_multiple_reward_tips"="The platform will determine the multiple of coin rewards according to the user's
+contribution and activity status; up to 3x rewards can be obtained";
 "NewIntegral_Gift_Msg_Get"="Consecutive %d days sign-in reward";
 "NewIntegral_Gift_Msg_Expire"="Expire";
 "NewIntegral_Topic_NumMsg"="%d posts";
@@ -1042,20 +1040,22 @@ failing to receive them.";
 "publish_tag_exist"="Tag already exists";
 "publish_tag_input"="Please enter a tag";
 "publish_more"="More";
-"NewIntegral_TaskPerfectUserInfo_Title"="Improve personal information";
-"NewIntegral_TaskPerfectUserInfo_SubTitle"="Change the avatar; get it immediately after filling in gender and birthday successfully, already got";
+"NewIntegral_TaskPerfectUserInfo_Title"="Complete personal information";
+"NewIntegral_TaskPerfectUserInfo_SubTitle"="Change your avatar or successfully fill out your gender and birth date to earn AK coins immediately. You have earned";
 "NewIntegral_Start_Publish_Now"="Participate now";
-
-"login_method_email" = "Continue using email";
-"login_method_wechat" = "Use Wechat to continue";
-"login_method_sina" = "Use Weibo to continue";
-"login_method_facebook" = "Continue using Facebook Face";
-"login_method_google" = "Continue with Google";
-"login_register_tips" = "Sign up to enter your personal information";
-"login_more" = "More options";
-"login_tips_title_1" = "Make friends";
-"login_tips_details_1" = "Millions of outdoor enthusiasts are gathering here";
-"login_tips_title_2" = "Outdoor knowledge";
-"login_tips_details_2" = "Share with people all around the world";
-"login_tips_title_3" = "Funny challenge";
-"login_tips_details_3" = "Interesting gold coin collection and exchange";
+"login_method_email"="Continue using email";
+"login_method_wechat"="Use Wechat to continue";
+"login_method_sina"="Use Weibo to continue";
+"login_method_facebook"="Continue using Facebook Face";
+"login_method_google"="Continue with Google";
+"login_register_tips"="Sign up to enter your personal information";
+"login_more"="More options";
+"login_tips_title_1"="Make friends";
+"login_tips_details_1"="Millions of outdoor enthusiasts are gathering here";
+"login_tips_title_2"="Outdoor knowledge";
+"login_tips_details_2"="Share with people all around the world";
+"login_tips_title_3"="Funny challenge";
+"login_tips_details_3"="Interesting gold coin collection and exchange";
+"NewShopBuy_Info_DetailMsg"="It is your responsibility to ensure that the address for receiving goods is
+correct. A wrong address may result in failing to receive the goods in time or
+failing to receive them.";

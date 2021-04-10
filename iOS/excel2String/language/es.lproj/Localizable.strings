@@ -962,7 +962,7 @@
 "coins_multiple_reward"="Monedas recompensa multiplicador";
 "product_inventory_shortage"="Agotado,está reabasteciendo";
 "NewFind_Review_Failed"="Revisión no aprobada";
-"NewIntegral_Receive_Gift_AkCoin"="%d monedas";
+"NewIntegral_Receive_Gift_AkCoin"="%d Monedas";
 "NewIntegral_Expire_Days"="Caduca en %d días";
 "NewIntegral_Expire_HourMinute"="Caduca después de %02d:%02d:%02d";
 "NewIntegral_Gift_Open_Title"="Abrir";
