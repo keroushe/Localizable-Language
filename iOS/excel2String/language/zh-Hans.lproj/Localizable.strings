@@ -1167,6 +1167,8 @@
 "login_method_google" = "使用Google继续";
 "login_register_tips" = "注册以输入您的个人资料";
 "login_more" = "更多选项";
+"login_sina" = "微博";
+"login_douyin" = "抖音";
 "login_tips_title_1" = "结交朋友";
 "login_tips_details_1" = "数百万户外爱好者聚集在这里";
 "login_tips_title_2" = "户外知识";
