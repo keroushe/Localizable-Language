@@ -1152,7 +1152,7 @@
 "publish_topic_search" = "输入名称搜索话题";
 "NewIntegral_Start_Publish_Now" = "立即参与";
 // 登录注册新增
-"NewLogin_LoginTipMessage_Title" = "选择不登陆的原因,继续体验";
+"NewLogin_LoginTipMessage_Title" = "选择不登录的原因,继续体验";
 "NewLogin_LoginTipMessage_Reason1" = "不想注册登录";
 "NewLogin_LoginTipMessage_Reason2" = "登录太麻烦了";
 "NewLogin_LoginTipMessage_Reason3" = "不想使用其他功能";
@@ -1169,9 +1169,9 @@
 "login_more" = "更多选项";
 "login_sina" = "微博";
 "login_douyin" = "抖音";
-"login_tips_title_1" = "结交朋友";
-"login_tips_details_1" = "数百万户外爱好者聚集在这里";
-"login_tips_title_2" = "户外知识";
-"login_tips_details_2" = "与世界各地的人们分享";
-"login_tips_title_3" = "有趣的挑战";
-"login_tips_details_3" = "有趣的金币收集和交换";
+"login_tips_title_1" = "户外爱好者社区";
+"login_tips_details_1" = "成千上万的户外玩家聚集在这里分享经验";
+"login_tips_title_2" = "惊喜挑战";
+"login_tips_details_2" = "从任务中获得金币以兑换免费礼物";
+"login_tips_title_3" = "专业编辑工具";
+"login_tips_details_3" = "创造精彩的作品并与朋友分享";
