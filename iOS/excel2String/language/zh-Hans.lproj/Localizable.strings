@@ -1163,10 +1163,12 @@
 "login_method_email" = "使用邮箱继续";
 "login_method_wechat" = "使用微信继续";
 "login_method_sina" = "使用微博继续";
+"login_method_apple" = "使用Apple继续";
 "login_method_facebook" = "使用Facebook继续";
 "login_method_google" = "使用Google继续";
 "login_register_tips" = "注册以输入您的个人资料";
 "login_more" = "更多选项";
+"login_wechat" = "微信";
 "login_sina" = "微博";
 "login_douyin" = "抖音";
 "login_tips_title_1" = "户外爱好者社区";
