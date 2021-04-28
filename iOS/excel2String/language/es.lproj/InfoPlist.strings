@@ -7,8 +7,8 @@
 */
 NSAppleMusicUsageDescription = "Puede usar sus archivos multimedia para editarlos después del permiso";
 NSCameraUsageDescription = "Puede usar la cámara para tomar fotos cuando esté permitido";
-NSLocationWhenInUseUsageDescription = "Utilice su ubicación para las estadísticas de datos cuando esté permitido";
-NSLocationAlwaysUsageDescription = "Utilice su ubicación para las estadísticas de datos cuando esté permitido";
+NSLocationWhenInUseUsageDescription = "Habilitar esto permite que AKASO GO use su ubicación para recomendar contenido en su área.";
+NSLocationAlwaysUsageDescription = "Habilitar esto permite que AKASO GO use su ubicación para recomendar contenido en su área.";
 NSMicrophoneUsageDescription = "Puede usar su micrófono para la reproducción y grabación de voz después del permiso";
 NSPhotoLibraryAddUsageDescription = "Puede acceder a su álbum para agregar imágenes después del permiso";
 NSPhotoLibraryUsageDescription = "Puede ver, editar y guardar fotos o videos cuando esté permitido";

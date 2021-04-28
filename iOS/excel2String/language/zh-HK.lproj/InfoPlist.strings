@@ -7,8 +7,8 @@
 */
 NSAppleMusicUsageDescription = "允許後可使用您的媒體文件進行剪輯";
 NSCameraUsageDescription = "允許後可使用相機拍攝照片";
-NSLocationWhenInUseUsageDescription = "允許後使用您的位置進行數據統計";
-NSLocationAlwaysUsageDescription = "允許後使用您的位置進行數據統計";
+NSLocationWhenInUseUsageDescription = "允許後可使用您的位置推薦所在地區的內容";
+NSLocationAlwaysUsageDescription = "允許後可使用您的位置推薦所在地區的內容";
 NSMicrophoneUsageDescription = "允許後可使用您的麥克風進行語音播放和錄音";
 NSPhotoLibraryAddUsageDescription = "允許後可訪問您的相冊添加圖片";
 NSPhotoLibraryUsageDescription = "允許後可查看、編輯、保存照片或視頻";

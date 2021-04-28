@@ -7,8 +7,8 @@
 */
 NSAppleMusicUsageDescription = "Sie können Ihre Mediendateien nach Genehmigung zum Bearbeiten verwenden";
 NSCameraUsageDescription = "Sie können die Kamera verwenden, um Fotos aufzunehmen, wenn dies zulässig ist";
-NSLocationWhenInUseUsageDescription = "Verwenden Sie Ihren Standort für Datenstatistiken, wenn dies zulässig ist";
-NSLocationAlwaysUsageDescription = "Verwenden Sie Ihren Standort für Datenstatistiken, wenn dies zulässig ist";
+NSLocationWhenInUseUsageDescription = "Nach der Erlaubnis können Sie Ihren Standort verwenden, um Inhalte in Ihrer Nähe zu empfehlen";
+NSLocationAlwaysUsageDescription = "Nach der Erlaubnis können Sie Ihren Standort verwenden, um Inhalte in Ihrer Nähe zu empfehlen";
 NSMicrophoneUsageDescription = "Sie können Ihr Mikrofon für die Sprachwiedergabe und Aufnahme nach Erlaubnis verwenden";
 NSPhotoLibraryAddUsageDescription = "Sie können auf Ihr Album zugreifen, um Bilder nach Erlaubnis hinzuzufügen";
 NSPhotoLibraryUsageDescription = "Sie können Fotos oder Videos anzeigen, bearbeiten und speichern, wenn dies zulässig ist";

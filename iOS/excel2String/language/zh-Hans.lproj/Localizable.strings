@@ -1177,3 +1177,69 @@
 "login_tips_details_2" = "从任务中获得金币以兑换免费礼物";
 "login_tips_title_3" = "专业编辑工具";
 "login_tips_details_3" = "创造精彩的作品并与朋友分享";
+// 邀请好友功能
+"ContactSend_Title" = "选择短信邀请";
+"ContactList_SendMsg" = "与我一起使用AKASO吧, 记录你想要的每一刻，也可以相互关注好友的动态。请在此处查看:";
+"ContactList_Empty_Tip1" = "搜索联系人";
+"ContactList_Empty_Tip2" = "在手机的联系人列表中邀请好友";
+"ContactList_Empty_Tip3" = "暂无任何联系人可供关注";
+"ContactList_Empty_Auth_Tip" = "授权同步";
+"LoginedInvite_Failed_Get_UserInfo" = "用户信息获取失败";
+"LoginedInvite_TipMsg1" = "创建一个账号,分享美好生活并互相关注对方的动态";
+"LoginedInvite_TipMsg2" = "%@正在邀请你一起\n加入 AKASOGO";
+"UserInviteLogin_Start_Tip" = "开始";
+"friends_title" = "查找邀请";
+"friends_contacts" = "联系人";
+"friends_share" = "邀请好友";
+"friends_share_tips" = "邀请好友一起记录想要的每一刻";
+"friends_list" = "好友列表";
+"friends_followAll" = "全部关注";
+
+
+// 新手引导
+"guide_file_1" = "添加精美的摄影作品";
+"guide_file_2" = "选好作品，我们去剪辑发布吧";
+"guide_file_3" = "多功能剪辑工具来体验吧";
+"guide_file_4" = "剪辑完成，发布精彩瞬间";
+"guide_publish_1" = "剪辑作品选择一个感兴趣的话题或标签，分享自己的美好瞬间";
+"guide_publish_2" = "发布后可领取：";
+"guide_publish_5" = "你还没有发布作品";
+"guide_publish_exit" = "直接退出";
+"guide_publish_continue" = "继续发布";
+"guide_publish_supplement" = "补充未添加内容，让作品更加精彩";
+"guide_publish_add" = "添加";
+
+// 邀请码
+"InviteCode_title" = "输入邀请码";
+"InviteCode_EnterBtn_Title" = "马上提交";
+"InviteCode_Ensure_Title" = "确定提交邀请码？";
+"InviteCode_Ensure_OK" = "提交";
+"InviteCode_Post_Success" = "提交成功";
+"InviteCode_Post_Failed" = "提交失败";
+// 新手引导相关
+"UserGuideHandle_0" = "再领100AK币";
+"UserGuideHandle_1" = "恭喜已拥有";
+"UserGuideHandle_2" = "%dAK币";
+"UserGuideHandle_3" = "登录成功获得";
+"UserGuideHandle_4" = "%dAK币=%d美金";
+"UserGuideHandle_5" = "未领取100AK币";
+"UserGuideHandle_6" = "去领取";
+"UserGuideHandle_7" = "AK币可购买精美产品";
+"UserGuideHandle_8" = "发布作品领取";
+"UserGuideHandle_9" = "发布作品";
+"UserGuideHandle_10" = "完成新手任务领取更多金币";
+"UserGuideHandle_11" = "领取更多";
+"UserGuideHandle_12" = "提示:账户未验证,请前往验证";
+"UserGuideHandle_13" = "验证可获得0.5美金";
+"UserGuideHandle_14" = "发布成功";
+"UserGuideHandle_15" = "已拥有%dAK币";
+"UserGuideHandle_16" = "操作频繁,十分钟后可重新发送";
+"UserGuideHandle_17" = "重新发送";
+"UserGuideHandle_18" = "完成验证";
+"UserGuideHandle_19" = "验证完成";
+"UserGuideHandle_20" = "验证失败";
+"UserGuideHandle_21" = "系统没有检测到你的验证";
+"UserGuideHandle_22" = "温馨提示";
+"UserGuideHandle_23" = "已发送，请到邮箱验证";
+"UserGuideHandle_24" = "已重新发送，请到邮箱验证";
+
