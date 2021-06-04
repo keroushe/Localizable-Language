@@ -2,7 +2,6 @@
 #usage: ./xl2.py excel_file language Localizable.strings
 import sys
 import xlrd
-import sys
 import string
 import pdb
 import collections

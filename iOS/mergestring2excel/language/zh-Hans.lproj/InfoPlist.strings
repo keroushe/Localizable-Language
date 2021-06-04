@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  Video
+
+  Created by saina on 2020/11/14.
+  Copyright © 2020 cnest. All rights reserved.
+*/
+NSAppleMusicUsageDescription = "允许后可使用您的媒体文件进行剪辑";
+NSCameraUsageDescription = "允许后可使用相机拍摄照片";
+NSLocationWhenInUseUsageDescription = "允许后可使用您的位置推荐所在地区的内容";
+NSLocationAlwaysUsageDescription = "允许后可使用您的位置推荐所在地区的内容";
+NSMicrophoneUsageDescription = "允许后可使用您的麦克风进行语音播放和录音";
+NSPhotoLibraryAddUsageDescription = "允许后可访问您的相册添加图片";
+NSPhotoLibraryUsageDescription = "允许后可查看、编辑、保存照片或视频";
