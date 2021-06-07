@@ -57,8 +57,7 @@ def string2list(file_name):
             fp3.write(s.decode("utf-8"))
             print 'Duplicate in strings key=%s, value=%s' % (key, val)
 
-        # tmp = [key, val]
-        tmp = [val, key]
+        tmp = [key, val]
         if tmp not in f1_list:
             f1_list.append(tmp)
 
@@ -66,4 +65,4 @@ def string2list(file_name):
         print 'error !!!'
         sys.exit()
 
-return f1_list
+    return f1_list

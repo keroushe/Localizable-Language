@@ -14,42 +14,36 @@ sys.path.append('./util')
 import excel2listutil
 import string2listutil
 import helperutil
+import list2excelutil
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 # export string file to excel file
 def exportstring2excel(stringlist, excellist, newfilename):    
-    tmp = []
-    stringkeylist = []
+    excelValuelist = []
+    for k, v in excellist:
+        excelValuelist.append(v)
+    
     tindex = -1
     for k, v in stringlist:
-        stringkeylist.append(k)
-    
-    for k, v in excellist:
-        tindex = kexistlist(k, stringkeylist)
+        tindex = helperutil.kexistlist(v, excelValuelist)
         if tindex >= 0:
-            excellist[tindex] = [k,stringlist[tindex]]
+            excellist[tindex] = [k, v]
         else:
-            
-            xmllist.append(tmp)
+            excellist.append([k, v])
     
-    f = open(file_name, 'w')
-    for k, v in xmllist:
-        s = "\"%s\"=\"%s\";\n" % (k, v)
-        f.write(s)
-    f.flush()
-    f.close()
+    list2excelutil.list2excel(excellist, newfilename)
 
 def main():
-    if len(sys.argv) != 5:
-        print 'usage: %s excel_file sheetname language Localizable.strings\n' % (sys.argv[0])
+    if len(sys.argv) != 6:
+        print 'usage: %s input_excel_file sheetname language Localizable.strings output_excel_file\n' % (sys.argv[0])
         sys.exit()
     excellist = excel2listutil.excel2list(sys.argv[1], sys.argv[2], sys.argv[3])
     stringlist = string2listutil.string2list(sys.argv[4])
-
+    exportstring2excel(stringlist, excellist, sys.argv[5])
     
-    print 'success import excel file to strings'
+    print 'success merage string file to excel file'
 
 if __name__ == '__main__':
     main()
